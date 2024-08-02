@@ -86,7 +86,7 @@ class Vision:
 
                 # 过滤小面积
                 if (w * h < 2000 or
-                        w * h > 45000 or
+                        w * h > 60000 or
                         w < 20 or h < 20 or
                         (abs(w - h) / max(w, h)) > 0.6 or
                         area_ratio < 0.60):
@@ -141,6 +141,7 @@ class Vision:
             # 获取图像
             QR_img = self.__frame.copy()
             QR_img = cv.cvtColor(QR_img, cv.COLOR_BGR2GRAY)
+            # QR_img = cv.equalizeHist(QR_img)
 
             for code in pyzbar.decode(QR_img):
                 data = code.data.decode('utf-8')
