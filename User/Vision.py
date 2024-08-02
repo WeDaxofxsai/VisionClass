@@ -177,11 +177,12 @@ class Vision:
             else:
                 time.sleep(0.1)
 
-    def __error_log(self):
-
+    def __error_log(self):  # 日志输出
+        print("Vision Error")
         pass
 
 
 if __name__ == '__main__':
     vision = Vision()
     vision.start_control()
+    print("Vision Started")
