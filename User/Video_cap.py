@@ -1,11 +1,11 @@
 import cv2
 
 # 初始化摄像头
-cap = cv2.VideoCapture(1)  # 0 通常是默认摄像头的标识
+cap = cv2.VideoCapture(0)  # 0 通常是默认摄像头的标识
 
 # 定义编解码器并创建VideoWriter对象
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-out = cv2.VideoWriter('../Things/output.mp4', fourcc, 30.0, (320, 240))
+out = cv2.VideoWriter('../Things/output.mp4', fourcc, 30.0, (640, 480))
 
 # 捕获视频帧
 while cap.isOpened():
