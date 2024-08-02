@@ -178,7 +178,7 @@ class Vision:
                 time.sleep(0.1)
 
     def __error_log(self):
-
+        print("Vision Error")
         pass
 
 
