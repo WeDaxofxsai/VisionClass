@@ -50,7 +50,7 @@ fps = video_cap.get(cv2.CAP_PROP_FPS)  # 获得视频帧率，即每秒多少帧
 size = (int(video_cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(video_cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
 videoWriter = cv2.VideoWriter('./video/new_green.mp4', cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps, size)
 
-ret, prev_frame = video_cap.read()
+_, prev_frame = video_cap.read()
 
 while True:
     # 读取下一帧
