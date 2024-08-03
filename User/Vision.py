@@ -80,16 +80,16 @@ class Vision:
                 # 获取轮廓位置
                 rect = cv.minAreaRect(contour)
                 x, y, w, h = cv.boundingRect(contour)
-                out_area = w * h
-                in_area = cv.contourArea(contour)
-                area_ratio = in_area / out_area
+                out_area = w * h  # 外部面积
+                in_area = cv.contourArea(contour)  # 内部面积
+                area_ratio = in_area / out_area  # 面积比
 
                 # 过滤小面积
-                if (w * h < 2000 or
-                        w * h > 60000 or
-                        w < 20 or h < 20 or
-                        (abs(w - h) / max(w, h)) > 0.6 or
-                        area_ratio < 0.60):
+                if (w * h < 2000 or  # 面积小于2000
+                        w * h > 60000 or  # 面积大于60000
+                        w < 20 or h < 20 or  # 宽度或高度小于20
+                        (abs(w - h) / max(w, h)) > 0.6 or  # 长宽比大于0.6
+                        area_ratio < 0.60):  # 面积比小于0.6
                     continue
 
                 cv.rectangle(self.__show_img, (x, y), (x + w, y + h), (0, 255, 0), 1)
