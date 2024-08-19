@@ -12,8 +12,8 @@ from pprint import pprint
 """
 
 
-car_width = 40  # 车的宽度
-car_hight = 40  # 车的高度
+car_width = 0  # 车的宽度
+car_hight = 0  # 车的高度
 
 
 def is_colision(x, y, map):
@@ -21,10 +21,10 @@ def is_colision(x, y, map):
     if car_hight == 0 or car_width == 0:
         return True
     for ser_x in range(
-        int(x - car_width / 2), int(x + car_width / 2), int(car_width / 2)
+        int(x - car_width / 2), int(x + car_width / 2), int(car_width / 3)
     ):
         for ser_y in range(
-            int(y - car_hight / 2), int(y + car_hight / 2), int(car_hight / 2)
+            int(y - car_hight / 2), int(y + car_hight / 2), int(car_hight / 3)
         ):
             if map.map[ser_x][ser_y].val == 1:
                 return False
@@ -227,13 +227,13 @@ if __name__ == "__main__":
     for cross in cross_list:
         ax.plot(cross[0], cross[1], ".", color="b")  # 'o' 表示圆形标记
 
-    s_points = [[130, 35], [370, 35]]
+    s_points = [[130, 35], [370, 35]]  # 235, 210
     for p in s_points:
         ax.plot(p[0], p[1], ".", color="r")  # 'o' 表示圆形标记
 
     # 设置起始点和终点，并创建astar对象
-    start_point = map.map[s_points[0][0]][s_points[0][1]]
-    end_point = map.map[187][433]
+    start_point = map.map[130][35]  # map.map[s_points[0][0]][s_points[0][1]]
+    end_point = map.map[310][430]
     astar = AStar(map, start_point, end_point)
     path = astar.search()
     cnt = 0
