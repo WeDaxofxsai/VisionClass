@@ -4,6 +4,7 @@ from matplotlib.patches import Rectangle
 import matplotlib.pyplot as plt
 import heapq
 from pprint import pprint
+from runin import runin
 
 """
 提升空间
@@ -12,8 +13,8 @@ from pprint import pprint
 """
 
 
-car_width = 0  # 车的宽度
-car_hight = 0  # 车的高度
+car_width = 20  # 车的宽度
+car_hight = 20  # 车的高度
 
 
 def is_colision(x, y, map):
@@ -72,7 +73,8 @@ class AStar:
         self.start_point = start_point
         self.end_point = end_point
         self.open_set = [self.start_point]  # 开集合，先放入起点，从起点开始遍历
-
+        self.w_x = 0.8  # 平衡代价参数
+        self.w_y = 0.2
         self.start_point.is_open = 1  #
         self.connect_num = connect_num  # 连通数，目前支持4连通或8连通
         self.diffuse_dir = [
@@ -85,6 +87,15 @@ class AStar:
             (1, -1),
             (-1, -1),
         ]  # 遍历的8个方向，只需取出元组，加到x和y上就可以
+
+    def y_cost(self, p):
+        """
+        平衡代价，使得不同方向的代价不一样
+        """
+        x_dis = abs(self.end_point.x - p.x)
+        y_dis = abs(self.end_point.y - p.y)
+
+        return self.w_x * x_dis + self.w_y * y_dis
 
     def g_cost(self, p):
         """
@@ -147,7 +158,8 @@ class AStar:
         # 先计算出当前点的总代价
         cost_g = self.g_cost(p)
         cost_h = self.h_cost(p)
-        cost_f = cost_g + cost_h
+        cost_y = self.y_cost(p)
+        cost_f = cost_g + cost_h + cost_y
         # 如果在开集合中，判断当前点和开集合中哪个点代价小，换成小的，相同x,y的点h值相同，g值不一定相同
         if p.is_open == 1:
             if cost_f < p.cost_f:
@@ -183,7 +195,8 @@ class AStar:
 
 
 if __name__ == "__main__":
-    map = Map((500, 500))
+    map_proportion = 2
+    map = Map((int(500 / map_proportion), int(500 / map_proportion)))
 
     # 用于显示plt图
 
@@ -193,12 +206,36 @@ if __name__ == "__main__":
     ax.set_aspect("equal")
 
     obstacle_list = [
-        [[221, 210], 58, 80],
-        [[218, 400], 64, 60],
-        [[2, 200], 22, 100],
-        [[476, 200], 22, 100],
-        [[115, 235], 30, 30],
-        [[355, 235], 30, 30],
+        [
+            [int(221 / map_proportion), int(210 / map_proportion)],
+            int(58 / map_proportion),
+            int(80 / map_proportion),
+        ],
+        [
+            [int(218 / map_proportion), int(400 / map_proportion)],
+            int(64 / map_proportion),
+            int(60 / map_proportion),
+        ],
+        [
+            [int(2 / map_proportion), int(200 / map_proportion)],
+            int(22 / map_proportion),
+            int(100 / map_proportion),
+        ],
+        [
+            [int(476 / map_proportion), int(200 / map_proportion)],
+            int(22 / map_proportion),
+            int(100 / map_proportion),
+        ],
+        [
+            [int(115 / map_proportion), int(235 / map_proportion)],
+            int(30 / map_proportion),
+            int(30 / map_proportion),
+        ],
+        [
+            [int(355 / map_proportion), int(235 / map_proportion)],
+            int(30 / map_proportion),
+            int(30 / map_proportion),
+        ],
     ]
     for obstacle in obstacle_list:
         map.set_obstacle(obstacle[0], obstacle[1], obstacle[2])
@@ -225,27 +262,41 @@ if __name__ == "__main__":
         [430, 430],
     ]
     for cross in cross_list:
-        ax.plot(cross[0], cross[1], ".", color="b")  # 'o' 表示圆形标记
+        ax.plot(
+            int(cross[0] / map_proportion),
+            int(cross[1] / map_proportion),
+            ".",
+            color="b",
+        )  # 'o' 表示圆形标记
 
-    s_points = [[130, 35], [370, 35]]  # 235, 210
+    s_points = [
+        [int(130 / map_proportion), int(35 / map_proportion)],
+        [int(370 / map_proportion), int(35 / map_proportion)],
+    ]  # 235, 210
     for p in s_points:
         ax.plot(p[0], p[1], ".", color="r")  # 'o' 表示圆形标记
 
     # 设置起始点和终点，并创建astar对象
-    start_point = map.map[130][35]  # map.map[s_points[0][0]][s_points[0][1]]
-    end_point = map.map[310][430]
+    start_point = map.map[64][16]  # map.map[s_points[0][0]][s_points[0][1]]
+    end_point = map.map[214][95]
     astar = AStar(map, start_point, end_point)
     path = astar.search()
-    cnt = 0
-    c = 0
-    for p in path:
-        ax.add_patch(Rectangle([p.x, p.y], width=1, height=1, color="red"))
-        if cnt % 20 == 0:
-            print(p.y - 35, ",", p.x - 130, ",")
-            ax.add_patch(Rectangle([p.x, p.y], width=1, height=1, color="black"))
-            c += 1
-        cnt += 1
-    print(c)
+    cnt = 15
+    points = []
+    for i in range(len(path)):
+        # ax.add_patch(Rectangle([path[i].x, path[i].y], width=1, height=1, color="red"))
+        if i != 0 and path[i].y == path[i - 1].y:
+            cnt = 0
+        else:
+            if cnt % 15 == 0 and cnt != 0:
+                points.append([path[i].y, path[i].x])
+                ax.plot(path[i].x, path[i].y, ".", color="g")  # 'o' 表示圆形标记
+                cnt = 0
+            cnt += 1
+
     # plt.savefig('./output/tmp.jpg')  # 可选择将其保存为本地图片
+    points.append([path[-1].y, path[-1].x])
+    pprint(points)
+    runin(points)
     plt.show()
     time.sleep(1000)
