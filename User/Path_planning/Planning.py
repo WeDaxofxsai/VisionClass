@@ -13,8 +13,8 @@ from runin import runin
 """
 
 
-car_width = 20  # 车的宽度
-car_hight = 20  # 车的高度
+car_width = 60  # 车的宽度
+car_hight = 60  # 车的高度
 
 
 def is_colision(x, y, map):
@@ -22,10 +22,10 @@ def is_colision(x, y, map):
     if car_hight == 0 or car_width == 0:
         return True
     for ser_x in range(
-        int(x - car_width / 2), int(x + car_width / 2), int(car_width / 3)
+        int(x - car_width / 2), int(x + car_width / 2), int(car_width / 10)
     ):
         for ser_y in range(
-            int(y - car_hight / 2), int(y + car_hight / 2), int(car_hight / 3)
+            int(y - car_hight / 2), int(y + car_hight / 2), int(car_hight / 10)
         ):
             if map.map[ser_x][ser_y].val == 1:
                 return False
@@ -73,8 +73,8 @@ class AStar:
         self.start_point = start_point
         self.end_point = end_point
         self.open_set = [self.start_point]  # 开集合，先放入起点，从起点开始遍历
-        self.w_x = 0.8  # 平衡代价参数
-        self.w_y = 0.2
+        self.w_x = 1.2  # 平衡代价参数
+        self.w_y = 1.8
         self.start_point.is_open = 1  #
         self.connect_num = connect_num  # 连通数，目前支持4连通或8连通
         self.diffuse_dir = [
@@ -195,7 +195,7 @@ class AStar:
 
 
 if __name__ == "__main__":
-    map_proportion = 2
+    map_proportion = 1
     map = Map((int(500 / map_proportion), int(500 / map_proportion)))
 
     # 用于显示plt图
@@ -236,6 +236,7 @@ if __name__ == "__main__":
             int(30 / map_proportion),
             int(30 / map_proportion),
         ],
+        [[115, 355], 30, 30],
     ]
     for obstacle in obstacle_list:
         map.set_obstacle(obstacle[0], obstacle[1], obstacle[2])
@@ -277,18 +278,18 @@ if __name__ == "__main__":
         ax.plot(p[0], p[1], ".", color="r")  # 'o' 表示圆形标记
 
     # 设置起始点和终点，并创建astar对象
-    start_point = map.map[64][16]  # map.map[s_points[0][0]][s_points[0][1]]
-    end_point = map.map[214][95]
+    start_point = map.map[70][190]  # map.map[s_points[0][0]][s_points[0][1]]
+    end_point = map.map[190][430]
     astar = AStar(map, start_point, end_point)
     path = astar.search()
-    cnt = 15
+    cnt = 25
     points = []
     for i in range(len(path)):
-        # ax.add_patch(Rectangle([path[i].x, path[i].y], width=1, height=1, color="red"))
+        ax.add_patch(Rectangle([path[i].x, path[i].y], width=1, height=1, color="red"))
         if i != 0 and path[i].y == path[i - 1].y:
             cnt = 0
         else:
-            if cnt % 15 == 0 and cnt != 0:
+            if cnt % 25 == 0 and cnt != 0:
                 points.append([path[i].y, path[i].x])
                 ax.plot(path[i].x, path[i].y, ".", color="g")  # 'o' 表示圆形标记
                 cnt = 0
@@ -296,7 +297,10 @@ if __name__ == "__main__":
 
     # plt.savefig('./output/tmp.jpg')  # 可选择将其保存为本地图片
     points.append([path[-1].y, path[-1].x])
-    pprint(points)
+    # pprint(points)
+    for point in points:
+        print(point[0] * map_proportion - 35, ",", point[1] * map_proportion - 130, ",")
+    print(len(points))
     runin(points)
     plt.show()
     time.sleep(1000)

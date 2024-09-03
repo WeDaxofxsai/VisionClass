@@ -1,16 +1,8 @@
-import time
-import os
 import serial
+import binascii
+import time
 
-import pigpio
-
-FRAME_HEADER = 0x55  # 帧头
-CMD_SERVO_MOVE = 0x03  # 舵机移动指令
-CMD_ACTION_GROUP_RUN = 0x06  # 运行动作组指令
-CMD_ACTION_GROUP_STOP = 0x07  # 停止动作组指令
-CMD_ACTION_GROUP_SPEED = 0x0B  # 设置动作组运行速度
-CMD_GET_BATTERY_VOLTAGE = 0x0F  # 获取电池电压指令
-CRCTABLE = [
+CRC_TABLE = [
     0x00,
     0x4D,
     0x9A,
@@ -269,36 +261,23 @@ CRCTABLE = [
     0xA8,
 ]
 
-open_io = "sudo pigpiod"
-os.system(open_io)
-time.sleep(0.5)
-pi = pigpio.pi()  # 初始化 pigpio库
 
-ser = serial.Serial("/dev/ttyUSB0", 230400, timeout=0.5)
+ser = serial.Serial("COM13", 921600)
 
+# while True:
+#     data = ser.read(50)  # 读取最多100字节的数据
+#     print("[original data]:", data)
+#     if data:
+#         hex_data = binascii.hexlify(data).decode("utf-8")
+#         print(hex_data)
 
-def crc_cal(data, len=6):
-    crc = 0
-    for i in range(len):
-        crc = CRCTABLE[(crc ^ data[i]) & 0xFF]
-    return crc
+frame = bytearray()
 
-
-# 0x55 0x55 0x05 id 低 高 crc
-def dinner_move(id=None, position=None):
-    buf = bytearray(b"\x55\x55\x05")
-    buf.append(id)
-    buf.extend([(0xFF & (position >> 8)), (0xFF & position)])  # 分低8位 高8位 放入缓存
-    buf.append(crc_cal(buf))  # 计算crc
-    # print(buf)
-    ser.write(buf)  # 发送
-
-
-def qiu():
-    dinner_move(id=1, position=1000)
-    time.sleep(0.1)
-    dinner_move(id=1, position=1300)
-
-
-if __name__ == "__main__":
-    dinner_move(id=1, position=1200)
+while True:
+    temp = ser.read()
+    frame += temp
+    if temp == b"-" and ser.read() == b"T":
+        text = frame.decode("utf-8")
+        print(text)
+        frame.clear()
+        frame.append(0x54)

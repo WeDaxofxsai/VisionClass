@@ -2,6 +2,7 @@ import cv2 as cv
 import time
 import numpy as np
 import threading
+
 from pyzbar import pyzbar
 
 # from Servo_control import qiu
@@ -42,13 +43,22 @@ class Vision:
         }  # 颜色阈值
         self.__frame = np.zeros((240, 320, 3), np.uint8)  # 帧
         self.aim = []  # aim 的格式是[flag， 类型， 颜色， 形状， (中心点坐标)， 面积]
-        self.__cap = cv.VideoCapture(0)
+        self.__cap = cv.VideoCapture(1)
         self.__cap.set(cv.CAP_PROP_FPS, 30)
         self.__cap.set(3, 320)  # 设置分辨率480p
         self.__cap.set(4, 240)
         self.box = []
         self.event = threading.Event()
         self.color_aim = "red"
+        self.__kernel_circle = np.array(
+            [
+                [0, 1, 1, 0],
+                [1, 1, 1, 1],
+                [1, 1, 1, 1],
+                [0, 1, 1, 0],
+            ],
+            np.uint8,
+        )
 
     def __capture(self):  # 拍照
         if not self.__cap.isOpened():
@@ -202,12 +212,15 @@ class Vision:
             inRange_aim = cv.bitwise_or(inRange_hsv_r, inRange_hsv_b)
             inRange_aim = cv.bitwise_or(inRange_aim, inRange_hsv_y)
 
+            kernel = np.array([[-1, -1, -1], [-1, 9, -1], [-1, -1, -1]])
+
+            inRange_aim = cv.medianBlur(inRange_aim, 5)
             # 目标图像进行形态学处理
             inRange_aim = cv.morphologyEx(
-                inRange_aim, cv.MORPH_CLOSE, np.ones((5, 5), np.uint8)
+                inRange_aim, cv.MORPH_CLOSE, self.__kernel_circle
             )
-            inRange_aim = cv.GaussianBlur(inRange_aim, (7, 7), 0)
-
+            # inRange_aim = cv.GaussianBlur(inRange_aim, (5, 5), 0)
+            cv.imshow("inRange_aim", inRange_aim)
             # 轮廓检测
             contours = cv.findContours(
                 inRange_aim.copy(), cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE
@@ -232,9 +245,9 @@ class Vision:
                 if (
                     w * h < 2000  # 面积小于2000
                     or w * h > 60000  # 面积大于60000
-                    or w < 20
-                    or h < 20  # 宽度或高度小于20
-                    or (abs(w - h) / max(w, h)) > 0.6  # 长宽比大于0.6
+                    or w < 15
+                    or h < 15  # 宽度或高度小于20
+                    or (abs(w - h) / max(w, h)) > 0.6
                     or area_ratio < 0.60
                 ):  # 面积比小于0.6
                     continue
@@ -276,7 +289,7 @@ class Vision:
 
                 cv.putText(
                     img,
-                    color,
+                    str(round(min(w, h) / max(w, h), 2)),
                     (x, y - 2),
                     cv.FONT_HERSHEY_COMPLEX,
                     0.5,
@@ -284,22 +297,34 @@ class Vision:
                     1,
                 )
 
-                cv.circle(
-                    img,
-                    (int(rect[0][0]), int(rect[0][1])),
-                    1,
-                    (0, 0, 0),
-                    -1,
-                )
+                # cv.putText(
+                #     img,
+                #     color,
+                #     (x, y - 2),
+                #     cv.FONT_HERSHEY_COMPLEX,
+                #     0.5,
+                #     (0, 0, 255),
+                #     1,
+                # )
+
+                cv.circle(img, (int(rect[0][0]), int(rect[0][1])), 1, (0, 0, 0), -1)
 
                 # 识别形状
                 normal_shape = "NULL"
-                approx = cv.approxPolyDP(contour, 7, True)
-                if len(approx) >= 7 and int(area_ratio * 10) == 7:
+                approx = cv.approxPolyDP(
+                    contour, 0.025 * cv.arcLength(contour, True), True
+                )
+                # if len(approx) >= 7 and int(area_ratio * 10) == 7:
+                #     normal_shape = "circle"
+                # else:
+                #     normal_shape = "block"
+
+                if len(approx) < 7 and int(area_ratio * 10) > 7:
+                    normal_shape = "block"
+                elif len(approx) >= 7 and int(area_ratio * 10) <= 7:
                     normal_shape = "circle"
                 else:
-
-                    normal_shape = "block"
+                    normal_shape = "unknown"
                 cv.putText(
                     img,
                     str(len(approx)),
@@ -318,7 +343,7 @@ class Vision:
                     color,
                     normal_shape,
                     (int(x + w / 2), int(y + h / 2)),
-                    in_area,
+                    out_area,
                 ]
                 print("[Output]:", box)
                 self.aim.append(box)
@@ -334,6 +359,7 @@ class Vision:
             self.event.wait()
             # 获取图像
             QR_img = self.__frame.copy()
+            QR_show = QR_img.copy()
             QR_img = cv.cvtColor(QR_img, cv.COLOR_BGR2GRAY)
             # QR_img = cv.equalizeHist(QR_img)
 
@@ -345,14 +371,14 @@ class Vision:
                     QR_color = "red"
 
                 cv.rectangle(
-                    self.__show_img,
+                    QR_show,
                     (code.rect[0], code.rect[1]),
                     (code.rect[0] + code.rect[2], code.rect[1] + code.rect[3]),
                     (0, 255, 0),
                     1,
                 )
                 cv.putText(
-                    self.__show_img,
+                    QR_show,
                     data,
                     (code.rect[0], code.rect[1]),
                     cv.FONT_HERSHEY_COMPLEX,
@@ -372,6 +398,7 @@ class Vision:
                     ),
                     code.rect[2] * code.rect[3],
                 ]
+                cv.imshow("QRcode", QR_show)
                 self.aim.append(box)
 
     def start_control(self):  # 启动控制
@@ -380,16 +407,13 @@ class Vision:
         QRcode_threading = threading.Thread(target=self.__QRcode_process)
         fast_threading = threading.Thread(target=self.__fast_process)
         capture_threading.start()  # 启动拍照线程
-        time.sleep(2)
-        fast_threading.start()  # 启动快速处理线程
-        # normal_threading.start()  # 启动图像处理线程
+        time.sleep(0.1)
+        # fast_threading.start()  # 启动快速处理线程
+        normal_threading.start()  # 启动图像处理线程
         # QRcode_threading.start()  # 启动图像处理线程
         self.event.set()
 
     def stop_control(self, chose=None):  # 停止控制
-        pass
-
-    def __error_log(self):  # 日志输出
         print("Vision Error")
         pass
 

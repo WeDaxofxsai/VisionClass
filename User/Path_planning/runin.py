@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import datetime
+from pprint import pprint
 
 
 def runin(_points):
@@ -50,7 +51,6 @@ def runin(_points):
 
     # Step 6
     for j in range(n - 1, -1, -1):
-        print(j)
         c[j] = z[j] - u[j] * c[j + 1]
         b[j] = (points[(j + 1) * 2 + 1] - points[j * 2 + 1]) / h[j] - h[j] * (
             c[j + 1] + 2 * c[j]
@@ -69,8 +69,11 @@ def runin(_points):
 
     pointsNum = 100
     pointList = []
+    s_step = -1 if points[i * 2] > points[(i + 1) * 2] else 1
     for i in range(n):
-        for x in range(points[i * 2] * pointsNum, points[(i + 1) * 2] * pointsNum):
+        for x in range(
+            points[i * 2] * pointsNum, points[(i + 1) * 2] * pointsNum, s_step
+        ):
             y = (
                 points[i * 2 + 1]
                 + b[i] * (x / pointsNum - points[i * 2])
@@ -79,10 +82,12 @@ def runin(_points):
             )
             pointList.append((round(y, 2), round(x / pointsNum, 2)))
 
+    # pprint(pointList)
     # 将点画出来
     plt.plot([p[0] for p in pointList], [p[1] for p in pointList])
     plt.show()
 
 
 if __name__ == "__main__":
-    main()
+    for i in range(50, 10):
+        print(i)
