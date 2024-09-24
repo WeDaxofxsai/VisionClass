@@ -1,0 +1,63 @@
+Times: 34.485s   1
+[INFO]:  ONE
+
+Times: 34.485s   2
+[INFO]:  x = 100.048805, y = 0.000000, z = 110.318138
+
+Times: 36.645s   3
+[INFO]:  TWO
+
+Times: 36.645s   4
+[INFO]:  deltaA = 19.334808, delta1 = -68.719757, delta2 = 11.947612, delta3 = -7.740291
+
+Times: 36.645s   5
+[INFO]:  x = 284.990662, y = 99.996719, z = 231.993561
+
+Times: 36.645s   6
+[INFO]:  pwm = 1150
+
+Times: 40.645s   7
+[INFO]:  servoControl id:1, pwm:1150
+
+Times: 1.500s   8
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   9
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   10
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   11
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   12
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   13
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   14
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   15
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   16
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   17
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   18
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   19
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   20
+[INFO]:  gyro is initialized
+
+Times: 2.500s   21
+[INFO]:  bspTaskStart is running
+

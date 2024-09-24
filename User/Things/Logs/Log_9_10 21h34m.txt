@@ -1,0 +1,66 @@
+Times: 86.085s   1
+[INFO]:  OK
+
+Times: 88.950s   2
+[INFO]:  ZERO
+
+Times: 88.952s   3
+[INFO]:  POSITION
+
+Times: 97.877s   4
+[INFO]:  WAIT 8.917s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 97.882s   5
+[INFO]:  SPIN
+
+Times: 0.000s   6
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   7
+[INFO]:  cmdTaskStart is running
+
+Times: 1.504s cmdTask   8
+[ERROR]:  uart2, err:7
+
+Times: 1.504s   9
+[INFO]:  armTaskStart is running
+
+Times: 1.506s   10
+[INFO]:  EEPROM Test Pass
+
+Times: 1.506s displayTask   11
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   12
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   13
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   14
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   15
+[INFO]:  gyro is initialized
+
+Times: 2.202s   16
+[INFO]:  motorTaskStart is running
+
+Times: 2.506s   17
+[INFO]:  bspTaskStart is running
+
+Times: 2.753s cmdTask   18
+[ERROR]:  uart2 lost frame 52
+
+Times: 5.701s   19
+[INFO]:  OK
+
+Times: 5.701s   20
+[INFO]:  BLUE
+
+Times: 5.701s   21
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 5.702s   22
+[INFO]:  PATH
+

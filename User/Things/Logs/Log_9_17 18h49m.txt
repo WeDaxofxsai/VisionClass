@@ -1,0 +1,333 @@
+Times: 1.500s   1
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   2
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   3
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s armTask   4
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   5
+[INFO]:  EEPROM Test Pass
+
+Times: 1.503s   6
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   7
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   8
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   9
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   10
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   11
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   12
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   13
+[INFO]:  gyro is initialing, angle = -0.005493, offset = -0.005493
+
+Times: 2.202s   14
+[INFO]:  gyro is initialized
+
+Times: 2.500s   15
+[INFO]:  bspTaskStart is running
+
+Times: 4.329s cmdTask   16
+[ERROR]:  uart2 lost frame 2
+
+Times: 8.245s   17
+[INFO]:  ONE
+
+Times: 8.245s   18
+[INFO]:  x = 99.934776, y = 0.000000, z = 109.998924
+
+Times: 1.500s   19
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   20
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   21
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s armTask   22
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   23
+[INFO]:  EEPROM Test Pass
+
+Times: 1.503s   24
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   25
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   26
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   27
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   28
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   29
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   30
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   31
+[INFO]:  gyro is initialing, angle = -0.005493, offset = -0.005493
+
+Times: 2.202s   32
+[INFO]:  gyro is initialized
+
+Times: 2.500s   33
+[INFO]:  bspTaskStart is running
+
+Times: 44.670s   34
+[INFO]:  ONE
+
+Times: 44.670s   35
+[INFO]:  x = 99.934776, y = 0.000000, z = 109.998924
+
+Times: 68.015s   36
+[INFO]:  TWO
+
+Times: 68.015s   37
+[INFO]:  deltaA = 0.000000, delta1 = -70.426834, delta2 = 58.975292, delta3 = -46.836338
+
+Times: 68.015s   38
+[INFO]:  x = 245.000275, y = 0.000000, z = 344.991425
+
+Times: 1.500s   39
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   40
+[WARN]:  armTaskStart is disabled
+
+Times: 1.501s   41
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   42
+[INFO]:  LCD ID:7789
+
+Times: 1.521s cmdTask   43
+[ERROR]:  uart2 lost frame 2
+
+Times: 1.632s   44
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   45
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   46
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   47
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   48
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   49
+[INFO]:  pid init from eeprom
+
+Times: 2.501s   50
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   51
+[INFO]:  gyro restart
+
+Times: 3.402s   52
+[INFO]:  gyro restart
+
+Times: 4.152s   53
+[INFO]:  gyro restart
+
+Times: 4.902s   54
+[INFO]:  gyro restart
+
+Times: 5.652s   55
+[INFO]:  gyro restart
+
+Times: 6.402s   56
+[INFO]:  gyro restart
+
+Times: 7.152s   57
+[INFO]:  gyro restart
+
+Times: 7.902s   58
+[INFO]:  gyro restart
+
+Times: 8.652s   59
+[INFO]:  gyro restart
+
+Times: 9.402s   60
+[INFO]:  gyro restart
+
+Times: 10.152s   61
+[INFO]:  gyro restart
+
+Times: 10.902s   62
+[INFO]:  gyro restart
+
+Times: 11.652s   63
+[INFO]:  gyro restart
+
+Times: 1.500s   64
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   65
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   66
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   67
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   68
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   69
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   70
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   71
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   72
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   73
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   74
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.005493
+
+Times: 2.202s   75
+[INFO]:  gyro is initialized
+
+Times: 2.500s   76
+[INFO]:  bspTaskStart is running
+
+Times: 5.215s   77
+[INFO]:  ONE
+
+Times: 5.215s   78
+[INFO]:  x = 99.934776, y = 0.000000, z = 109.998924
+
+Times: 10.215s   79
+[INFO]:  UP
+
+Times: 10.215s   80
+[INFO]:  deltaA = 0.000000, delta1 = -63.196857, delta2 = 27.579824, delta3 = -20.132795
+
+Times: 10.215s   81
+[INFO]:  x = 272.992157, y = 0.000000, z = 272.993408
+
+Times: 14.215s   82
+[INFO]:  theta3Pwm = 1190
+
+Times: 1.500s   83
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   84
+[WARN]:  armTaskStart is disabled
+
+Times: 1.501s   85
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   86
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   87
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   88
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   89
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   90
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   91
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   92
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   93
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.016479
+
+Times: 2.202s   94
+[INFO]:  gyro is initialized
+
+Times: 2.223s cmdTask   95
+[ERROR]:  uart2 lost frame 2
+
+Times: 2.501s   96
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   97
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   98
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   99
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s armTask   100
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   101
+[INFO]:  EEPROM Test Pass
+
+Times: 1.503s   102
+[INFO]:  LCD ID:7789
+
+Times: 1.521s cmdTask   103
+[ERROR]:  uart2 lost frame 2
+
+Times: 1.634s   104
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   105
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   106
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   107
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   108
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   109
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   110
+[INFO]:  gyro is initialing, angle = -0.005493, offset = -0.005493
+
+Times: 2.202s   111
+[INFO]:  gyro is initialized
+

@@ -1,0 +1,4506 @@
+Times: 16.295s   1
+[INFO]:  OK
+
+Times: 16.295s   2
+[INFO]:  BLUE
+
+Times: 16.295s   3
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 16.297s   4
+[INFO]:  PATH
+
+Times: None   5
+[None]: None
+
+Times: None   6
+[None]: None
+
+Times: 17.030s cmdTask   7
+[ERROR]:  uart2 lost frame 186
+
+Times: 17.106s   8
+[INFO]:  greyCross
+
+Times: 17.106s   9
+[INFO]:  GrayCheckPosition:x1500.00
+
+Times: 22.797s   10
+[INFO]:  WAIT 5.692s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 67
+
+Times: 312.120s   11
+[INFO]:  ZERO
+
+Times: 312.122s   12
+[INFO]:  POSITION
+
+Times: 321.047s   13
+[INFO]:  WAIT 8.917s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 321.052s   14
+[INFO]:  SPIN
+
+Times: 0.000s   15
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   16
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   17
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   18
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   19
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   20
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   21
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   22
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   23
+[INFO]:  gyro is initialized
+
+Times: 2.202s   24
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   25
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   26
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   27
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   28
+[INFO]:  EEPROM Test Pass
+
+Times: 1.501s displayTask   29
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   30
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   31
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   32
+[INFO]:  gyro is initialing, angle = 0.021973, offset = 0.000000
+
+Times: 2.202s   33
+[INFO]:  gyro is initialized
+
+Times: 2.202s   34
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   35
+[INFO]:  bspTaskStart is running
+
+Times: 2.515s cmdTask   36
+[ERROR]:  uart2 lost frame 2
+
+Times: 0.000s   37
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   38
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   39
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   40
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   41
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   42
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   43
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   44
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   45
+[INFO]:  gyro is initialized
+
+Times: 2.202s   46
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   47
+[INFO]:  bspTaskStart is running
+
+Times: 4.128s cmdTask   48
+[ERROR]:  uart2 lost frame 9
+
+Times: 15.395s   49
+[INFO]:  OK
+
+Times: 15.395s   50
+[INFO]:  BLUE
+
+Times: 15.395s   51
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 15.397s   52
+[INFO]:  PATH
+
+Times: 15.397s   53
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 15.397s   54
+[INFO]:  distance:40688.91
+
+Times: 16.206s   55
+[INFO]:  greyCross
+
+Times: 16.206s   56
+[INFO]:  GrayCheckPosition:x1500.00
+
+Times: 21.897s   57
+[INFO]:  WAIT 5.692s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 67
+
+Times: 90.815s   58
+[INFO]:  ZERO
+
+Times: 90.817s   59
+[INFO]:  POSITION
+
+Times: 99.742s   60
+[INFO]:  WAIT 8.917s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 99.747s   61
+[INFO]:  SPIN
+
+Times: 0.000s   62
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   63
+[INFO]:  cmdTaskStart is running
+
+Times: 1.506s cmdTask   64
+[ERROR]:  uart2, err:7
+
+Times: 1.506s   65
+[INFO]:  armTaskStart is running
+
+Times: 1.508s   66
+[INFO]:  EEPROM Test Pass
+
+Times: 1.509s displayTask   67
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   68
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   69
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   70
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   71
+[INFO]:  gyro is initialized
+
+Times: 2.202s   72
+[INFO]:  motorTaskStart is running
+
+Times: 2.508s   73
+[INFO]:  bspTaskStart is running
+
+Times: 5.484s cmdTask   74
+[ERROR]:  uart2 lost frame 47
+
+Times: 0.000s   75
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   76
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   77
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   78
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   79
+[WARN]:  displayTaskStart is disabled
+
+Times: 1.629s cmdTask   80
+[ERROR]:  uart2 lost frame 62
+
+Times: 2.102s   81
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   82
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   83
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   84
+[INFO]:  gyro is initialized
+
+Times: 2.202s   85
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   86
+[INFO]:  bspTaskStart is running
+
+Times: 6.035s   87
+[INFO]:  OK
+
+Times: 6.035s   88
+[INFO]:  BLUE
+
+Times: 6.035s   89
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 6.037s   90
+[INFO]:  PATH
+
+Times: 6.037s   91
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 6.037s   92
+[INFO]:  distance:40688.92
+
+Times: 12.467s   93
+[INFO]:  WAIT 5.622s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 67
+
+Times: 20.880s   94
+[INFO]:  ZERO
+
+Times: 20.882s   95
+[INFO]:  POSITION
+
+Times: 29.807s   96
+[INFO]:  WAIT 8.917s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 29.812s   97
+[INFO]:  SPIN
+
+Times: 0.000s   98
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   99
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   100
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   101
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   102
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   103
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   104
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   105
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   106
+[INFO]:  gyro is initialized
+
+Times: 2.202s   107
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   108
+[INFO]:  bspTaskStart is running
+
+Times: 6.728s cmdTask   109
+[ERROR]:  uart2 lost frame 85
+
+Times: 0.000s   110
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   111
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   112
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   113
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   114
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   115
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   116
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   117
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   118
+[INFO]:  gyro is initialized
+
+Times: 2.202s   119
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   120
+[INFO]:  bspTaskStart is running
+
+Times: 5.138s cmdTask   121
+[ERROR]:  uart2 lost frame 94
+
+Times: 13.335s   122
+[INFO]:  OK
+
+Times: 13.335s   123
+[INFO]:  BLUE
+
+Times: 13.335s   124
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 13.337s   125
+[INFO]:  PATH
+
+Times: 13.337s   126
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 13.337s   127
+[INFO]:  distance:40688.92
+
+Times: 17.785s   128
+[INFO]:  greyCross
+
+Times: 17.785s   129
+[INFO]:  GrayCheckPosition:x25500.00
+
+Times: 19.982s   130
+[INFO]:  WAIT 5.837s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 67
+
+Times: 37.990s   131
+[INFO]:  ZERO
+
+Times: 37.992s   132
+[INFO]:  POSITION
+
+Times: 46.917s   133
+[INFO]:  WAIT 8.917s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 46.922s   134
+[INFO]:  SPIN
+
+Times: 0.000s   135
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   136
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   137
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   138
+[INFO]:  EEPROM Test Pass
+
+Times: 1.501s displayTask   139
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   140
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   141
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   142
+[INFO]:  gyro is initialing, angle = -0.411987, offset = 0.000000
+
+Times: 2.202s   143
+[INFO]:  gyro is initialized
+
+Times: 2.202s   144
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   145
+[INFO]:  bspTaskStart is running
+
+Times: 9.494s cmdTask   146
+[ERROR]:  uart2 lost frame 117
+
+Times: 0.000s   147
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   148
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   149
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   150
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   151
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   152
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   153
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   154
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   155
+[INFO]:  gyro is initialized
+
+Times: 2.202s   156
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   157
+[INFO]:  bspTaskStart is running
+
+Times: 3.570s   158
+[INFO]:  OK
+
+Times: 3.570s   159
+[INFO]:  BLUE
+
+Times: 3.570s   160
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 3.572s   161
+[INFO]:  PATH
+
+Times: 3.572s   162
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 3.572s   163
+[INFO]:  distance:38389.86
+
+Times: 4.406s cmdTask   164
+[ERROR]:  uart2 lost frame 128
+
+Times: 9.687s   165
+[INFO]:  WAIT 5.307s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 68
+
+Times: 49.435s   166
+[INFO]:  ZERO
+
+Times: 49.437s   167
+[INFO]:  POSITION
+
+Times: 57.837s   168
+[INFO]:  WAIT 8.392s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 57.842s   169
+[INFO]:  SPIN
+
+Times: 0.000s   170
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   171
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   172
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   173
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   174
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   175
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   176
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   177
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   178
+[INFO]:  gyro is initialized
+
+Times: 2.202s   179
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   180
+[INFO]:  bspTaskStart is running
+
+Times: 10.196s cmdTask   181
+[ERROR]:  uart2 lost frame 169
+
+Times: 1.500s   182
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   183
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   184
+[INFO]:  EEPROM Test Pass
+
+Times: 1.501s displayTask   185
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.102s   186
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   187
+[INFO]:  pid init from eeprom
+
+Times: 2.174s cmdTask   188
+[ERROR]:  uart2 lost frame 2
+
+Times: 2.202s   189
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.000000
+
+Times: 2.202s   190
+[INFO]:  gyro is initialized
+
+Times: 2.202s   191
+[INFO]:  motorTaskStart is running
+
+Times: 2.500s   192
+[INFO]:  bspTaskStart is running
+
+Times: 0.000s   193
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   194
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   195
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   196
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   197
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   198
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   199
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   200
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   201
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   202
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   203
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   204
+[INFO]:  gyro is initialing, angle = -104.067993, offset = -104.067993
+
+Times: 2.202s   205
+[INFO]:  gyro is initialized
+
+Times: 2.500s   206
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   207
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   208
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   209
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   210
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   211
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   212
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   213
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   214
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   215
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   216
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   217
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   218
+[INFO]:  gyro is initialized
+
+Times: 2.500s   219
+[INFO]:  bspTaskStart is running
+
+Times: 10.016s cmdTask   220
+[ERROR]:  uart2 lost frame 2
+
+Times: 1.500s   221
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   222
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   223
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   224
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   225
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   226
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   227
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   228
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   229
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   230
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   231
+[INFO]:  gyro is initialing, angle = 1.406250, offset = 1.406250
+
+Times: 2.202s   232
+[INFO]:  gyro is initialized
+
+Times: 2.500s   233
+[INFO]:  bspTaskStart is running
+
+Times: 7.970s cmdTask   234
+[ERROR]:  uart2 lost frame 2
+
+Times: 1.500s   235
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   236
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   237
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   238
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   239
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   240
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   241
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   242
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   243
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   244
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   245
+[INFO]:  gyro is initialing, angle = 1.406250, offset = 1.406250
+
+Times: 2.202s   246
+[INFO]:  gyro is initialized
+
+Times: 2.500s   247
+[INFO]:  bspTaskStart is running
+
+Times: 9.765s   248
+[INFO]:  OK
+
+Times: 9.765s   249
+[INFO]:  BLUE
+
+Times: 9.765s   250
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 9.767s   251
+[INFO]:  PATH
+
+Times: 9.767s   252
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 9.767s   253
+[INFO]:  distance:38389.86
+
+Times: 11.039s cmdTask   254
+[ERROR]:  uart2 lost frame 2
+
+Times: 1.500s   255
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   256
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   257
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   258
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   259
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   260
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   261
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   262
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   263
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   264
+[INFO]:  pid init from eeprom
+
+Times: 2.500s   265
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   266
+[INFO]:  gyro restart
+
+Times: 3.402s   267
+[INFO]:  gyro restart
+
+Times: 4.152s   268
+[INFO]:  gyro restart
+
+Times: 4.902s   269
+[INFO]:  gyro restart
+
+Times: 5.652s   270
+[INFO]:  gyro restart
+
+Times: 6.402s   271
+[INFO]:  gyro restart
+
+Times: 7.152s   272
+[INFO]:  gyro restart
+
+Times: 7.902s   273
+[INFO]:  gyro restart
+
+Times: 8.652s   274
+[INFO]:  gyro restart
+
+Times: 9.402s   275
+[INFO]:  gyro restart
+
+Times: 10.152s   276
+[INFO]:  gyro restart
+
+Times: 10.902s   277
+[INFO]:  gyro restart
+
+Times: 11.652s   278
+[INFO]:  gyro restart
+
+Times: 11.705s   279
+[INFO]:  OK
+
+Times: 11.705s   280
+[INFO]:  BLUE
+
+Times: 11.705s   281
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 12.402s   282
+[INFO]:  gyro restart
+
+Times: 12.515s   283
+[INFO]:  WAIT 0.000s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 68
+
+Times: 13.152s   284
+[INFO]:  gyro restart
+
+Times: 13.902s   285
+[INFO]:  gyro restart
+
+Times: 14.190s   286
+[INFO]:  OK
+
+Times: 14.652s   287
+[INFO]:  gyro restart
+
+Times: 15.402s   288
+[INFO]:  gyro restart
+
+Times: 16.152s   289
+[INFO]:  gyro restart
+
+Times: 16.902s   290
+[INFO]:  gyro restart
+
+Times: 17.652s   291
+[INFO]:  gyro restart
+
+Times: 18.402s   292
+[INFO]:  gyro restart
+
+Times: 19.152s   293
+[INFO]:  gyro restart
+
+Times: 19.902s   294
+[INFO]:  gyro restart
+
+Times: 20.652s   295
+[INFO]:  gyro restart
+
+Times: 21.260s   296
+[INFO]:  OK
+
+Times: 21.402s   297
+[INFO]:  gyro restart
+
+Times: 22.152s   298
+[INFO]:  gyro restart
+
+Times: 22.902s   299
+[INFO]:  gyro restart
+
+Times: 23.652s   300
+[INFO]:  gyro restart
+
+Times: 1.500s   301
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   302
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   303
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   304
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   305
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   306
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   307
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   308
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   309
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   310
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   311
+[INFO]:  gyro is initialing, angle = 4.218750, offset = 4.218750
+
+Times: 2.202s   312
+[INFO]:  gyro is initialized
+
+Times: 2.500s   313
+[INFO]:  bspTaskStart is running
+
+Times: 17.570s   314
+[INFO]:  OK
+
+Times: 17.570s   315
+[INFO]:  BLUE
+
+Times: 17.570s   316
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 17.572s   317
+[INFO]:  PATH
+
+Times: 17.572s   318
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 17.572s   319
+[INFO]:  distance:38389.86
+
+Times: 1.500s   320
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   321
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   322
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   323
+[INFO]:  LCD ID:7789
+
+Times: 0.000s   324
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   325
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   326
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   327
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   328
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.100s   329
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   330
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   331
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   332
+[INFO]:  gyro is initialing, angle = 57.650757, offset = 57.650757
+
+Times: 2.202s   333
+[INFO]:  gyro is initialized
+
+Times: 2.500s   334
+[INFO]:  bspTaskStart is running
+
+Times: 7.780s   335
+[INFO]:  OK
+
+Times: 7.780s   336
+[INFO]:  BLUE
+
+Times: 7.780s   337
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 7.782s   338
+[INFO]:  PATH
+
+Times: 7.782s   339
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 7.782s   340
+[INFO]:  distance:38389.86
+
+Times: 9.106s cmdTask   341
+[ERROR]:  uart2 lost frame 2
+
+Times: 1.500s   342
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   343
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   344
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s displayTask   345
+[WARN]:  displayTaskStart is disabled
+
+Times: 2.100s   346
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   347
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   348
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   349
+[INFO]:  gyro is initialing, angle = -0.005493, offset = -0.005493
+
+Times: 2.202s   350
+[INFO]:  gyro is initialized
+
+Times: 2.500s   351
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   352
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   353
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   354
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   355
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   356
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   357
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   358
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   359
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   360
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   361
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   362
+[INFO]:  gyro is initialing, angle = -2.817993, offset = -2.817993
+
+Times: 2.202s   363
+[INFO]:  gyro is initialized
+
+Times: 2.500s   364
+[INFO]:  bspTaskStart is running
+
+Times: 0.000s   365
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   366
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   367
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   368
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   369
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   370
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   371
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   372
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   373
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   374
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   375
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   376
+[INFO]:  gyro is initialing, angle = -2.817993, offset = -2.817993
+
+Times: 2.202s   377
+[INFO]:  gyro is initialized
+
+Times: 2.500s   378
+[INFO]:  bspTaskStart is running
+
+Times: 5.345s   379
+[INFO]:  OK
+
+Times: 5.345s   380
+[INFO]:  BLUE
+
+Times: 5.345s   381
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 5.347s   382
+[INFO]:  PATH
+
+Times: 5.347s   383
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 5.347s   384
+[INFO]:  distance:38389.86
+
+Times: 5.447s   385
+[INFO]:  gyro restart
+
+Times: 5.472s   386
+[INFO]:  gyro restart
+
+Times: 5.497s   387
+[INFO]:  gyro restart
+
+Times: 5.522s   388
+[INFO]:  gyro restart
+
+Times: 5.547s   389
+[INFO]:  gyro restart
+
+Times: 5.572s   390
+[INFO]:  gyro restart
+
+Times: 5.597s   391
+[INFO]:  gyro restart
+
+Times: 5.622s   392
+[INFO]:  gyro restart
+
+Times: 5.647s   393
+[INFO]:  gyro restart
+
+Times: 5.672s   394
+[INFO]:  gyro restart
+
+Times: 5.697s   395
+[INFO]:  gyro restart
+
+Times: 5.722s   396
+[INFO]:  gyro restart
+
+Times: 5.747s   397
+[INFO]:  gyro restart
+
+Times: 5.772s   398
+[INFO]:  gyro restart
+
+Times: 5.797s   399
+[INFO]:  gyro restart
+
+Times: 5.822s   400
+[INFO]:  gyro restart
+
+Times: 5.847s   401
+[INFO]:  gyro restart
+
+Times: 5.872s   402
+[INFO]:  gyro restart
+
+Times: 5.897s   403
+[INFO]:  gyro restart
+
+Times: 5.922s   404
+[INFO]:  gyro restart
+
+Times: 5.947s   405
+[INFO]:  gyro restart
+
+Times: 5.972s   406
+[INFO]:  gyro restart
+
+Times: 5.997s   407
+[INFO]:  gyro restart
+
+Times: 6.022s   408
+[INFO]:  gyro restart
+
+Times: 6.047s   409
+[INFO]:  gyro restart
+
+Times: 6.072s   410
+[INFO]:  gyro restart
+
+Times: 6.097s   411
+[INFO]:  gyro restart
+
+Times: 6.122s   412
+[INFO]:  gyro restart
+
+Times: 6.147s   413
+[INFO]:  gyro restart
+
+Times: 6.172s   414
+[INFO]:  gyro restart
+
+Times: 6.197s   415
+[INFO]:  gyro restart
+
+Times: 6.222s   416
+[INFO]:  gyro restart
+
+Times: 6.247s   417
+[INFO]:  gyro restart
+
+Times: 6.272s   418
+[INFO]:  gyro restart
+
+Times: 6.297s   419
+[INFO]:  gyro restart
+
+Times: 6.322s   420
+[INFO]:  gyro restart
+
+Times: 6.347s   421
+[INFO]:  gyro restart
+
+Times: 6.372s   422
+[INFO]:  gyro restart
+
+Times: 6.393s cmdTask   423
+[ERROR]:  uart2 lost frame 2
+
+Times: 6.397s   424
+[INFO]:  gyro restart
+
+Times: 6.422s   425
+[INFO]:  gyro restart
+
+Times: 6.447s   426
+[INFO]:  gyro restart
+
+Times: 6.472s   427
+[INFO]:  gyro restart
+
+Times: 6.497s   428
+[INFO]:  gyro restart
+
+Times: 6.522s   429
+[INFO]:  gyro restart
+
+Times: 6.547s   430
+[INFO]:  gyro restart
+
+Times: 6.572s   431
+[INFO]:  gyro restart
+
+Times: 6.597s   432
+[INFO]:  gyro restart
+
+Times: 6.622s   433
+[INFO]:  gyro restart
+
+Times: 6.647s   434
+[INFO]:  gyro restart
+
+Times: 6.672s   435
+[INFO]:  gyro restart
+
+Times: 6.697s   436
+[INFO]:  gyro restart
+
+Times: 6.722s   437
+[INFO]:  gyro restart
+
+Times: 6.747s   438
+[INFO]:  gyro restart
+
+Times: 6.772s   439
+[INFO]:  gyro restart
+
+Times: 6.797s   440
+[INFO]:  gyro restart
+
+Times: 6.822s   441
+[INFO]:  gyro restart
+
+Times: 6.847s   442
+[INFO]:  gyro restart
+
+Times: 6.872s   443
+[INFO]:  gyro restart
+
+Times: 6.897s   444
+[INFO]:  gyro restart
+
+Times: 6.922s   445
+[INFO]:  gyro restart
+
+Times: 6.947s   446
+[INFO]:  gyro restart
+
+Times: 6.972s   447
+[INFO]:  gyro restart
+
+Times: 6.997s   448
+[INFO]:  gyro restart
+
+Times: 7.022s   449
+[INFO]:  gyro restart
+
+Times: 7.047s   450
+[INFO]:  gyro restart
+
+Times: 7.072s   451
+[INFO]:  gyro restart
+
+Times: 7.097s   452
+[INFO]:  gyro restart
+
+Times: 7.122s   453
+[INFO]:  gyro restart
+
+Times: 7.147s   454
+[INFO]:  gyro restart
+
+Times: 7.172s   455
+[INFO]:  gyro restart
+
+Times: 7.197s   456
+[INFO]:  gyro restart
+
+Times: 7.222s   457
+[INFO]:  gyro restart
+
+Times: 7.247s   458
+[INFO]:  gyro restart
+
+Times: 7.272s   459
+[INFO]:  gyro restart
+
+Times: 7.297s   460
+[INFO]:  gyro restart
+
+Times: 7.322s   461
+[INFO]:  gyro restart
+
+Times: 7.347s   462
+[INFO]:  gyro restart
+
+Times: 7.372s   463
+[INFO]:  gyro restart
+
+Times: 7.397s   464
+[INFO]:  gyro restart
+
+Times: 7.422s   465
+[INFO]:  gyro restart
+
+Times: 7.447s   466
+[INFO]:  gyro restart
+
+Times: 7.472s   467
+[INFO]:  gyro restart
+
+Times: 7.497s   468
+[INFO]:  gyro restart
+
+Times: 7.522s   469
+[INFO]:  gyro restart
+
+Times: 7.547s   470
+[INFO]:  gyro restart
+
+Times: 7.572s   471
+[INFO]:  gyro restart
+
+Times: 7.597s   472
+[INFO]:  gyro restart
+
+Times: 7.622s   473
+[INFO]:  gyro restart
+
+Times: 7.647s   474
+[INFO]:  gyro restart
+
+Times: 7.672s   475
+[INFO]:  gyro restart
+
+Times: 7.697s   476
+[INFO]:  gyro restart
+
+Times: 7.722s   477
+[INFO]:  gyro restart
+
+Times: 7.747s   478
+[INFO]:  gyro restart
+
+Times: 7.772s   479
+[INFO]:  gyro restart
+
+Times: 7.797s   480
+[INFO]:  gyro restart
+
+Times: 7.822s   481
+[INFO]:  gyro restart
+
+Times: 7.847s   482
+[INFO]:  gyro restart
+
+Times: 7.872s   483
+[INFO]:  gyro restart
+
+Times: 7.897s   484
+[INFO]:  gyro restart
+
+Times: 7.922s   485
+[INFO]:  gyro restart
+
+Times: 7.947s   486
+[INFO]:  gyro restart
+
+Times: 7.972s   487
+[INFO]:  gyro restart
+
+Times: 7.997s   488
+[INFO]:  gyro restart
+
+Times: 8.022s   489
+[INFO]:  gyro restart
+
+Times: 8.047s   490
+[INFO]:  gyro restart
+
+Times: 8.072s   491
+[INFO]:  gyro restart
+
+Times: 8.097s   492
+[INFO]:  gyro restart
+
+Times: 8.122s   493
+[INFO]:  gyro restart
+
+Times: 8.147s   494
+[INFO]:  gyro restart
+
+Times: 8.172s   495
+[INFO]:  gyro restart
+
+Times: 8.197s   496
+[INFO]:  gyro restart
+
+Times: 8.222s   497
+[INFO]:  gyro restart
+
+Times: 8.247s   498
+[INFO]:  gyro restart
+
+Times: 8.272s   499
+[INFO]:  gyro restart
+
+Times: 8.297s   500
+[INFO]:  gyro restart
+
+Times: 8.322s   501
+[INFO]:  gyro restart
+
+Times: 8.347s   502
+[INFO]:  gyro restart
+
+Times: 8.372s   503
+[INFO]:  gyro restart
+
+Times: 8.397s   504
+[INFO]:  gyro restart
+
+Times: 8.422s   505
+[INFO]:  gyro restart
+
+Times: 8.447s   506
+[INFO]:  gyro restart
+
+Times: 8.472s   507
+[INFO]:  gyro restart
+
+Times: 8.497s   508
+[INFO]:  gyro restart
+
+Times: 8.522s   509
+[INFO]:  gyro restart
+
+Times: 8.547s   510
+[INFO]:  gyro restart
+
+Times: 8.572s   511
+[INFO]:  gyro restart
+
+Times: 8.597s   512
+[INFO]:  gyro restart
+
+Times: 8.622s   513
+[INFO]:  gyro restart
+
+Times: 8.647s   514
+[INFO]:  gyro restart
+
+Times: 8.672s   515
+[INFO]:  gyro restart
+
+Times: 8.697s   516
+[INFO]:  gyro restart
+
+Times: 8.722s   517
+[INFO]:  gyro restart
+
+Times: 8.747s   518
+[INFO]:  gyro restart
+
+Times: 8.772s   519
+[INFO]:  gyro restart
+
+Times: 8.797s   520
+[INFO]:  gyro restart
+
+Times: 8.822s   521
+[INFO]:  gyro restart
+
+Times: 8.847s   522
+[INFO]:  gyro restart
+
+Times: 1.500s   523
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   524
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   525
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   526
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   527
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   528
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   529
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   530
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   531
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   532
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   533
+[INFO]:  gyro is initialing, angle = 1.406250, offset = 1.406250
+
+Times: 2.202s   534
+[INFO]:  gyro is initialized
+
+Times: 2.500s   535
+[INFO]:  bspTaskStart is running
+
+Times: 26.180s   536
+[INFO]:  OK
+
+Times: 26.180s   537
+[INFO]:  BLUE
+
+Times: 26.180s   538
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 26.182s   539
+[INFO]:  PATH
+
+Times: 26.182s   540
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 26.182s   541
+[INFO]:  distance:38389.84
+
+Times: 27.746s cmdTask   542
+[ERROR]:  uart2 lost frame 2
+
+Times: 1.500s   543
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   544
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   545
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   546
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   547
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   548
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   549
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   550
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   551
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   552
+[INFO]:  pid init from eeprom
+
+Times: 2.172s cmdTask   553
+[ERROR]:  uart2 lost frame 2
+
+Times: 2.202s   554
+[INFO]:  gyro is initialing, angle = -46.411743, offset = -46.411743
+
+Times: 2.202s   555
+[INFO]:  gyro is initialized
+
+Times: 2.500s   556
+[INFO]:  bspTaskStart is running
+
+Times: 0.000s   557
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   558
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   559
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   560
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   561
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   562
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   563
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   564
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   565
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   566
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   567
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   568
+[INFO]:  gyro is initialing, angle = -45.005493, offset = -45.005493
+
+Times: 2.202s   569
+[INFO]:  gyro is initialized
+
+Times: 2.500s   570
+[INFO]:  bspTaskStart is running
+
+Times: 5.726s cmdTask   571
+[ERROR]:  uart2 lost frame 10
+
+Times: 11.735s   572
+[INFO]:  OK
+
+Times: 11.735s   573
+[INFO]:  BLUE
+
+Times: 11.735s   574
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 11.737s   575
+[INFO]:  PATH
+
+Times: 11.737s   576
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 11.737s   577
+[INFO]:  distance:38193.66
+
+Times: 1.500s   578
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   579
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   580
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   581
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   582
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   583
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   584
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   585
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   586
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   587
+[INFO]:  pid init from eeprom
+
+Times: 2.500s   588
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   589
+[INFO]:  gyro restart
+
+Times: 3.402s   590
+[INFO]:  gyro restart
+
+Times: 4.152s   591
+[INFO]:  gyro restart
+
+Times: 4.902s   592
+[INFO]:  gyro restart
+
+Times: 5.652s   593
+[INFO]:  gyro restart
+
+Times: 0.000s   594
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   595
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   596
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   597
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   598
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   599
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   600
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   601
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   602
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   603
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   604
+[INFO]:  pid init from eeprom
+
+Times: 2.501s   605
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   606
+[INFO]:  gyro restart
+
+Times: 3.402s   607
+[INFO]:  gyro restart
+
+Times: 4.152s   608
+[INFO]:  gyro restart
+
+Times: 4.487s cmdTask   609
+[ERROR]:  uart2 lost frame 3
+
+Times: 4.902s   610
+[INFO]:  gyro restart
+
+Times: 5.652s   611
+[INFO]:  gyro restart
+
+Times: 6.402s   612
+[INFO]:  gyro restart
+
+Times: 7.152s   613
+[INFO]:  gyro restart
+
+Times: 7.902s   614
+[INFO]:  gyro restart
+
+Times: 8.652s   615
+[INFO]:  gyro restart
+
+Times: 9.402s   616
+[INFO]:  gyro restart
+
+Times: 10.152s   617
+[INFO]:  gyro restart
+
+Times: 10.531s   618
+[INFO]:  OK
+
+Times: 10.531s   619
+[INFO]:  BLUE
+
+Times: 10.531s   620
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 10.902s   621
+[INFO]:  gyro restart
+
+Times: 11.341s   622
+[INFO]:  WAIT 0.000s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 68
+
+Times: 11.652s   623
+[INFO]:  gyro restart
+
+Times: 12.402s   624
+[INFO]:  gyro restart
+
+Times: 13.152s   625
+[INFO]:  gyro restart
+
+Times: 13.901s   626
+[INFO]:  OK
+
+Times: 13.902s   627
+[INFO]:  gyro restart
+
+Times: 14.652s   628
+[INFO]:  gyro restart
+
+Times: 15.402s   629
+[INFO]:  gyro restart
+
+Times: 16.152s   630
+[INFO]:  gyro restart
+
+Times: 16.391s   631
+[INFO]:  OK
+
+Times: 16.902s   632
+[INFO]:  gyro restart
+
+Times: 17.652s   633
+[INFO]:  gyro restart
+
+Times: 18.402s   634
+[INFO]:  gyro restart
+
+Times: 19.152s   635
+[INFO]:  gyro restart
+
+Times: 19.902s   636
+[INFO]:  gyro restart
+
+Times: 20.652s   637
+[INFO]:  gyro restart
+
+Times: 21.402s   638
+[INFO]:  gyro restart
+
+Times: 22.152s   639
+[INFO]:  gyro restart
+
+Times: 22.902s   640
+[INFO]:  gyro restart
+
+Times: 23.652s   641
+[INFO]:  gyro restart
+
+Times: 24.402s   642
+[INFO]:  gyro restart
+
+Times: 25.152s   643
+[INFO]:  gyro restart
+
+Times: 25.902s   644
+[INFO]:  gyro restart
+
+Times: 26.652s   645
+[INFO]:  gyro restart
+
+Times: 27.402s   646
+[INFO]:  gyro restart
+
+Times: 28.152s   647
+[INFO]:  gyro restart
+
+Times: 28.902s   648
+[INFO]:  gyro restart
+
+Times: 29.652s   649
+[INFO]:  gyro restart
+
+Times: 30.402s   650
+[INFO]:  gyro restart
+
+Times: 31.152s   651
+[INFO]:  gyro restart
+
+Times: 31.902s   652
+[INFO]:  gyro restart
+
+Times: 1.500s   653
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   654
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   655
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   656
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   657
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   658
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   659
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   660
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   661
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   662
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   663
+[INFO]:  gyro is initialing, angle = 2.812500, offset = 2.812500
+
+Times: 2.202s   664
+[INFO]:  gyro is initialized
+
+Times: 2.500s   665
+[INFO]:  bspTaskStart is running
+
+Times: 7.955s   666
+[INFO]:  OK
+
+Times: 7.955s   667
+[INFO]:  BLUE
+
+Times: 7.955s   668
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 7.957s   669
+[INFO]:  PATH
+
+Times: 7.957s   670
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 7.957s   671
+[INFO]:  distance:38193.67
+
+Times: 1.500s   672
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   673
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   674
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   675
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   676
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   677
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   678
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   679
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   680
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   681
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   682
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   683
+[INFO]:  gyro is initialized
+
+Times: 2.500s   684
+[INFO]:  bspTaskStart is running
+
+Times: 0.000s   685
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   686
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   687
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   688
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   689
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   690
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   691
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   692
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   693
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   694
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   695
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   696
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   697
+[INFO]:  gyro is initialized
+
+Times: 2.500s   698
+[INFO]:  bspTaskStart is running
+
+Times: 5.145s   699
+[INFO]:  OK
+
+Times: 5.145s   700
+[INFO]:  BLUE
+
+Times: 5.145s   701
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 5.147s   702
+[INFO]:  POSITION
+
+Times: 6.340s   703
+[INFO]:  OK
+
+Times: 6.526s cmdTask   704
+[ERROR]:  uart2 lost frame 2
+
+Times: 1.500s   705
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   706
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   707
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   708
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   709
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   710
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   711
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   712
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   713
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   714
+[INFO]:  pid init from eeprom
+
+Times: 2.500s   715
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   716
+[INFO]:  gyro restart
+
+Times: 3.402s   717
+[INFO]:  gyro restart
+
+Times: 4.152s   718
+[INFO]:  gyro restart
+
+Times: 4.902s   719
+[INFO]:  gyro restart
+
+Times: 5.652s   720
+[INFO]:  gyro restart
+
+Times: 6.402s   721
+[INFO]:  gyro restart
+
+Times: 7.152s   722
+[INFO]:  gyro restart
+
+Times: 7.902s   723
+[INFO]:  gyro restart
+
+Times: 8.652s   724
+[INFO]:  gyro restart
+
+Times: 9.402s   725
+[INFO]:  gyro restart
+
+Times: 10.152s   726
+[INFO]:  gyro restart
+
+Times: 10.902s   727
+[INFO]:  gyro restart
+
+Times: 11.652s   728
+[INFO]:  gyro restart
+
+Times: 12.402s   729
+[INFO]:  gyro restart
+
+Times: 13.152s   730
+[INFO]:  gyro restart
+
+Times: 13.902s   731
+[INFO]:  gyro restart
+
+Times: 14.652s   732
+[INFO]:  gyro restart
+
+Times: 15.402s   733
+[INFO]:  gyro restart
+
+Times: 16.152s   734
+[INFO]:  gyro restart
+
+Times: 16.902s   735
+[INFO]:  gyro restart
+
+Times: 17.652s   736
+[INFO]:  gyro restart
+
+Times: 18.402s   737
+[INFO]:  gyro restart
+
+Times: 19.152s   738
+[INFO]:  gyro restart
+
+Times: 19.902s   739
+[INFO]:  gyro restart
+
+Times: 20.652s   740
+[INFO]:  gyro restart
+
+Times: 21.402s   741
+[INFO]:  gyro restart
+
+Times: 22.152s   742
+[INFO]:  gyro restart
+
+Times: 22.902s   743
+[INFO]:  gyro restart
+
+Times: 23.652s   744
+[INFO]:  gyro restart
+
+Times: 24.402s   745
+[INFO]:  gyro restart
+
+Times: 25.152s   746
+[INFO]:  gyro restart
+
+Times: 25.902s   747
+[INFO]:  gyro restart
+
+Times: 26.652s   748
+[INFO]:  gyro restart
+
+Times: 27.402s   749
+[INFO]:  gyro restart
+
+Times: 28.152s   750
+[INFO]:  gyro restart
+
+Times: 28.434s cmdTask   751
+[ERROR]:  uart2 lost frame 3
+
+Times: 28.902s   752
+[INFO]:  gyro restart
+
+Times: 29.652s   753
+[INFO]:  gyro restart
+
+Times: 30.402s   754
+[INFO]:  gyro restart
+
+Times: 31.152s   755
+[INFO]:  gyro restart
+
+Times: 31.902s   756
+[INFO]:  gyro restart
+
+Times: 32.652s   757
+[INFO]:  gyro restart
+
+Times: 33.402s   758
+[INFO]:  gyro restart
+
+Times: 34.152s   759
+[INFO]:  gyro restart
+
+Times: 34.902s   760
+[INFO]:  gyro restart
+
+Times: 35.652s   761
+[INFO]:  gyro restart
+
+Times: 36.402s   762
+[INFO]:  gyro restart
+
+Times: 37.152s   763
+[INFO]:  gyro restart
+
+Times: 37.902s   764
+[INFO]:  gyro restart
+
+Times: 38.052s   765
+[INFO]:  gyro is initialing, angle = -4.224243, offset = 0.000000
+
+Times: 38.052s   766
+[INFO]:  gyro is initialized
+
+Times: 0.000s   767
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   768
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   769
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   770
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   771
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   772
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   773
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   774
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   775
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   776
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   777
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   778
+[INFO]:  gyro is initialing, angle = -4.224243, offset = -4.224243
+
+Times: 2.202s   779
+[INFO]:  gyro is initialized
+
+Times: 2.227s   780
+[INFO]:  gyro restart
+
+Times: 2.252s   781
+[INFO]:  gyro restart
+
+Times: 2.277s   782
+[INFO]:  gyro restart
+
+Times: 2.302s   783
+[INFO]:  gyro restart
+
+Times: 2.327s   784
+[INFO]:  gyro restart
+
+Times: 2.352s   785
+[INFO]:  gyro restart
+
+Times: 2.377s   786
+[INFO]:  gyro restart
+
+Times: 2.402s   787
+[INFO]:  gyro restart
+
+Times: 2.427s   788
+[INFO]:  gyro restart
+
+Times: 2.452s   789
+[INFO]:  gyro restart
+
+Times: 2.477s   790
+[INFO]:  gyro restart
+
+Times: 2.500s   791
+[INFO]:  bspTaskStart is running
+
+Times: 2.502s   792
+[INFO]:  gyro restart
+
+Times: 2.527s   793
+[INFO]:  gyro restart
+
+Times: 2.552s   794
+[INFO]:  gyro restart
+
+Times: 2.577s   795
+[INFO]:  gyro restart
+
+Times: 2.602s   796
+[INFO]:  gyro restart
+
+Times: 2.627s   797
+[INFO]:  gyro restart
+
+Times: 2.652s   798
+[INFO]:  gyro restart
+
+Times: 2.677s   799
+[INFO]:  gyro restart
+
+Times: 2.697s   800
+[INFO]:  z:418.20,wz:0.00,zData:-769,wzData:0 
+
+Times: 2.702s   801
+[INFO]:  gyro restart
+
+Times: 2.727s   802
+[INFO]:  gyro restart
+
+Times: 2.752s   803
+[INFO]:  gyro restart
+
+Times: 2.777s   804
+[INFO]:  gyro restart
+
+Times: 2.802s   805
+[INFO]:  gyro restart
+
+Times: 2.827s   806
+[INFO]:  gyro restart
+
+Times: 2.852s   807
+[INFO]:  gyro restart
+
+Times: 2.877s   808
+[INFO]:  gyro restart
+
+Times: 2.902s   809
+[INFO]:  gyro restart
+
+Times: 2.927s   810
+[INFO]:  gyro restart
+
+Times: 2.952s   811
+[INFO]:  gyro restart
+
+Times: 2.977s   812
+[INFO]:  gyro restart
+
+Times: 3.002s   813
+[INFO]:  gyro restart
+
+Times: 3.027s   814
+[INFO]:  gyro restart
+
+Times: 3.052s   815
+[INFO]:  gyro restart
+
+Times: 3.077s   816
+[INFO]:  gyro restart
+
+Times: 3.102s   817
+[INFO]:  gyro restart
+
+Times: 3.127s   818
+[INFO]:  gyro restart
+
+Times: 3.152s   819
+[INFO]:  gyro restart
+
+Times: 3.177s   820
+[INFO]:  gyro restart
+
+Times: 3.197s   821
+[INFO]:  z:840.62,wz:0.00,zData:-769,wzData:0 
+
+Times: 3.202s   822
+[INFO]:  gyro restart
+
+Times: 3.227s   823
+[INFO]:  gyro restart
+
+Times: 3.252s   824
+[INFO]:  gyro restart
+
+Times: 3.277s   825
+[INFO]:  gyro restart
+
+Times: 3.302s   826
+[INFO]:  gyro restart
+
+Times: 3.327s   827
+[INFO]:  gyro restart
+
+Times: 3.352s   828
+[INFO]:  gyro restart
+
+Times: 3.377s   829
+[INFO]:  gyro restart
+
+Times: 3.402s   830
+[INFO]:  gyro restart
+
+Times: 3.427s   831
+[INFO]:  gyro restart
+
+Times: 3.452s   832
+[INFO]:  gyro restart
+
+Times: 3.477s   833
+[INFO]:  gyro restart
+
+Times: 3.502s   834
+[INFO]:  gyro restart
+
+Times: 3.527s   835
+[INFO]:  gyro restart
+
+Times: 3.552s   836
+[INFO]:  gyro restart
+
+Times: 3.577s   837
+[INFO]:  gyro restart
+
+Times: 3.602s   838
+[INFO]:  gyro restart
+
+Times: 3.627s   839
+[INFO]:  gyro restart
+
+Times: 3.652s   840
+[INFO]:  gyro restart
+
+Times: 3.677s   841
+[INFO]:  gyro restart
+
+Times: 3.697s   842
+[INFO]:  z:1263.05,wz:0.00,zData:-769,wzData:0 
+
+Times: 3.702s   843
+[INFO]:  gyro restart
+
+Times: 3.727s   844
+[INFO]:  gyro restart
+
+Times: 3.752s   845
+[INFO]:  gyro restart
+
+Times: 3.777s   846
+[INFO]:  gyro restart
+
+Times: 3.802s   847
+[INFO]:  gyro restart
+
+Times: 3.827s   848
+[INFO]:  gyro restart
+
+Times: 3.852s   849
+[INFO]:  gyro restart
+
+Times: 3.877s   850
+[INFO]:  gyro restart
+
+Times: 3.902s   851
+[INFO]:  gyro restart
+
+Times: 3.927s   852
+[INFO]:  gyro restart
+
+Times: 3.952s   853
+[INFO]:  gyro restart
+
+Times: 3.977s   854
+[INFO]:  gyro restart
+
+Times: 4.002s   855
+[INFO]:  gyro restart
+
+Times: 4.027s   856
+[INFO]:  gyro restart
+
+Times: 4.052s   857
+[INFO]:  gyro restart
+
+Times: 4.077s   858
+[INFO]:  gyro restart
+
+Times: 4.102s   859
+[INFO]:  gyro restart
+
+Times: 4.127s   860
+[INFO]:  gyro restart
+
+Times: 4.152s   861
+[INFO]:  gyro restart
+
+Times: 4.177s   862
+[INFO]:  gyro restart
+
+Times: 4.197s   863
+[INFO]:  z:1685.47,wz:0.00,zData:-769,wzData:0 
+
+Times: 4.202s   864
+[INFO]:  gyro restart
+
+Times: 4.227s   865
+[INFO]:  gyro restart
+
+Times: 4.252s   866
+[INFO]:  gyro restart
+
+Times: 4.277s   867
+[INFO]:  gyro restart
+
+Times: 4.302s   868
+[INFO]:  gyro restart
+
+Times: 4.327s   869
+[INFO]:  gyro restart
+
+Times: 4.352s   870
+[INFO]:  gyro restart
+
+Times: 4.377s   871
+[INFO]:  gyro restart
+
+Times: 4.402s   872
+[INFO]:  gyro restart
+
+Times: 4.427s   873
+[INFO]:  gyro restart
+
+Times: 4.452s   874
+[INFO]:  gyro restart
+
+Times: 4.477s   875
+[INFO]:  gyro restart
+
+Times: 4.502s   876
+[INFO]:  gyro restart
+
+Times: 4.527s   877
+[INFO]:  gyro restart
+
+Times: 4.552s   878
+[INFO]:  gyro restart
+
+Times: 4.577s   879
+[INFO]:  gyro restart
+
+Times: 4.602s   880
+[INFO]:  gyro restart
+
+Times: 4.627s   881
+[INFO]:  gyro restart
+
+Times: 4.652s   882
+[INFO]:  gyro restart
+
+Times: 4.677s   883
+[INFO]:  gyro restart
+
+Times: 4.697s   884
+[INFO]:  z:2107.90,wz:0.00,zData:-769,wzData:0 
+
+Times: 4.702s   885
+[INFO]:  gyro restart
+
+Times: 4.727s   886
+[INFO]:  gyro restart
+
+Times: 4.752s   887
+[INFO]:  gyro restart
+
+Times: 4.777s   888
+[INFO]:  gyro restart
+
+Times: 4.802s   889
+[INFO]:  gyro restart
+
+Times: 4.827s   890
+[INFO]:  gyro restart
+
+Times: 4.852s   891
+[INFO]:  gyro restart
+
+Times: 4.877s   892
+[INFO]:  gyro restart
+
+Times: 4.902s   893
+[INFO]:  gyro restart
+
+Times: 4.927s   894
+[INFO]:  gyro restart
+
+Times: 4.952s   895
+[INFO]:  gyro restart
+
+Times: 4.977s   896
+[INFO]:  gyro restart
+
+Times: 5.002s   897
+[INFO]:  gyro restart
+
+Times: 5.027s   898
+[INFO]:  gyro restart
+
+Times: 5.052s   899
+[INFO]:  gyro restart
+
+Times: 5.077s   900
+[INFO]:  gyro restart
+
+Times: 5.102s   901
+[INFO]:  gyro restart
+
+Times: 5.127s   902
+[INFO]:  gyro restart
+
+Times: 5.152s   903
+[INFO]:  gyro restart
+
+Times: 5.177s   904
+[INFO]:  gyro restart
+
+Times: 5.197s   905
+[INFO]:  z:2530.31,wz:0.00,zData:-769,wzData:0 
+
+Times: 5.202s   906
+[INFO]:  gyro restart
+
+Times: 5.227s   907
+[INFO]:  gyro restart
+
+Times: 5.252s   908
+[INFO]:  gyro restart
+
+Times: 5.277s   909
+[INFO]:  gyro restart
+
+Times: 5.302s   910
+[INFO]:  gyro restart
+
+Times: 5.327s   911
+[INFO]:  gyro restart
+
+Times: 5.352s   912
+[INFO]:  gyro restart
+
+Times: 5.377s   913
+[INFO]:  gyro restart
+
+Times: 5.402s   914
+[INFO]:  gyro restart
+
+Times: 5.427s   915
+[INFO]:  gyro restart
+
+Times: 5.452s   916
+[INFO]:  gyro restart
+
+Times: 5.477s   917
+[INFO]:  gyro restart
+
+Times: 5.502s   918
+[INFO]:  gyro restart
+
+Times: 5.527s   919
+[INFO]:  gyro restart
+
+Times: 5.552s   920
+[INFO]:  gyro restart
+
+Times: 5.577s   921
+[INFO]:  gyro restart
+
+Times: 5.602s   922
+[INFO]:  gyro restart
+
+Times: 5.627s   923
+[INFO]:  gyro restart
+
+Times: 5.652s   924
+[INFO]:  gyro restart
+
+Times: 5.677s   925
+[INFO]:  gyro restart
+
+Times: 5.697s   926
+[INFO]:  z:2952.72,wz:0.00,zData:-769,wzData:0 
+
+Times: 5.702s   927
+[INFO]:  gyro restart
+
+Times: 5.727s   928
+[INFO]:  gyro restart
+
+Times: 5.752s   929
+[INFO]:  gyro restart
+
+Times: 5.777s   930
+[INFO]:  gyro restart
+
+Times: 5.802s   931
+[INFO]:  gyro restart
+
+Times: 5.827s   932
+[INFO]:  gyro restart
+
+Times: 5.852s   933
+[INFO]:  gyro restart
+
+Times: 5.877s   934
+[INFO]:  gyro restart
+
+Times: 5.902s   935
+[INFO]:  gyro restart
+
+Times: 5.927s   936
+[INFO]:  gyro restart
+
+Times: 5.952s   937
+[INFO]:  gyro restart
+
+Times: 5.977s   938
+[INFO]:  gyro restart
+
+Times: 6.002s   939
+[INFO]:  gyro restart
+
+Times: 6.027s   940
+[INFO]:  gyro restart
+
+Times: 6.052s   941
+[INFO]:  gyro restart
+
+Times: 6.077s   942
+[INFO]:  gyro restart
+
+Times: 6.102s   943
+[INFO]:  gyro restart
+
+Times: 6.127s   944
+[INFO]:  gyro restart
+
+Times: 6.152s   945
+[INFO]:  gyro restart
+
+Times: 6.177s   946
+[INFO]:  gyro restart
+
+Times: 6.197s   947
+[INFO]:  z:3375.13,wz:0.00,zData:-769,wzData:0 
+
+Times: 6.202s   948
+[INFO]:  gyro restart
+
+Times: 6.227s   949
+[INFO]:  gyro restart
+
+Times: 6.252s   950
+[INFO]:  gyro restart
+
+Times: 6.277s   951
+[INFO]:  gyro restart
+
+Times: 6.302s   952
+[INFO]:  gyro restart
+
+Times: 6.327s   953
+[INFO]:  gyro restart
+
+Times: 6.352s   954
+[INFO]:  gyro restart
+
+Times: 6.377s   955
+[INFO]:  gyro restart
+
+Times: 6.402s   956
+[INFO]:  gyro restart
+
+Times: 6.427s   957
+[INFO]:  gyro restart
+
+Times: 6.452s   958
+[INFO]:  gyro restart
+
+Times: 6.477s   959
+[INFO]:  gyro restart
+
+Times: 6.502s   960
+[INFO]:  gyro restart
+
+Times: 6.527s   961
+[INFO]:  gyro restart
+
+Times: 6.552s   962
+[INFO]:  gyro restart
+
+Times: 6.577s   963
+[INFO]:  gyro restart
+
+Times: 6.602s   964
+[INFO]:  gyro restart
+
+Times: 6.627s   965
+[INFO]:  gyro restart
+
+Times: 6.652s   966
+[INFO]:  gyro restart
+
+Times: 6.677s   967
+[INFO]:  gyro restart
+
+Times: 6.697s   968
+[INFO]:  z:3797.54,wz:0.00,zData:-769,wzData:0 
+
+Times: 6.702s   969
+[INFO]:  gyro restart
+
+Times: 6.727s   970
+[INFO]:  gyro restart
+
+Times: 6.752s   971
+[INFO]:  gyro restart
+
+Times: 6.777s   972
+[INFO]:  gyro restart
+
+Times: 6.802s   973
+[INFO]:  gyro restart
+
+Times: 6.827s   974
+[INFO]:  gyro restart
+
+Times: 6.852s   975
+[INFO]:  gyro restart
+
+Times: 6.877s   976
+[INFO]:  gyro restart
+
+Times: 6.902s   977
+[INFO]:  gyro restart
+
+Times: 6.927s   978
+[INFO]:  gyro restart
+
+Times: 6.952s   979
+[INFO]:  gyro restart
+
+Times: 6.977s   980
+[INFO]:  gyro restart
+
+Times: 7.002s   981
+[INFO]:  gyro restart
+
+Times: 7.027s   982
+[INFO]:  gyro restart
+
+Times: 7.052s   983
+[INFO]:  gyro restart
+
+Times: 7.077s   984
+[INFO]:  gyro restart
+
+Times: 7.102s   985
+[INFO]:  gyro restart
+
+Times: 7.127s   986
+[INFO]:  gyro restart
+
+Times: 7.152s   987
+[INFO]:  gyro restart
+
+Times: 7.177s   988
+[INFO]:  gyro restart
+
+Times: 7.197s   989
+[INFO]:  z:4219.96,wz:0.00,zData:-769,wzData:0 
+
+Times: 7.202s   990
+[INFO]:  gyro restart
+
+Times: 7.227s   991
+[INFO]:  gyro restart
+
+Times: 7.252s   992
+[INFO]:  gyro restart
+
+Times: 7.277s   993
+[INFO]:  gyro restart
+
+Times: 7.302s   994
+[INFO]:  gyro restart
+
+Times: 7.327s   995
+[INFO]:  gyro restart
+
+Times: 7.352s   996
+[INFO]:  gyro restart
+
+Times: 7.377s   997
+[INFO]:  gyro restart
+
+Times: 7.402s   998
+[INFO]:  gyro restart
+
+Times: 7.427s   999
+[INFO]:  gyro restart
+
+Times: 7.452s   1000
+[INFO]:  gyro restart
+
+Times: 7.477s   1001
+[INFO]:  gyro restart
+
+Times: 7.502s   1002
+[INFO]:  gyro restart
+
+Times: 7.527s   1003
+[INFO]:  gyro restart
+
+Times: 7.552s   1004
+[INFO]:  gyro restart
+
+Times: 7.577s   1005
+[INFO]:  gyro restart
+
+Times: 7.602s   1006
+[INFO]:  gyro restart
+
+Times: 7.627s   1007
+[INFO]:  gyro restart
+
+Times: 7.652s   1008
+[INFO]:  gyro restart
+
+Times: 7.677s   1009
+[INFO]:  gyro restart
+
+Times: 7.697s   1010
+[INFO]:  z:4642.37,wz:0.00,zData:-769,wzData:0 
+
+Times: 7.702s   1011
+[INFO]:  gyro restart
+
+Times: 7.727s   1012
+[INFO]:  gyro restart
+
+Times: 7.752s   1013
+[INFO]:  gyro restart
+
+Times: 7.777s   1014
+[INFO]:  gyro restart
+
+Times: 7.802s   1015
+[INFO]:  gyro restart
+
+Times: 7.827s   1016
+[INFO]:  gyro restart
+
+Times: 7.852s   1017
+[INFO]:  gyro restart
+
+Times: 7.877s   1018
+[INFO]:  gyro restart
+
+Times: 7.902s   1019
+[INFO]:  gyro restart
+
+Times: 7.927s   1020
+[INFO]:  gyro restart
+
+Times: 7.952s   1021
+[INFO]:  gyro restart
+
+Times: 7.977s   1022
+[INFO]:  gyro restart
+
+Times: 8.002s   1023
+[INFO]:  gyro restart
+
+Times: 8.027s   1024
+[INFO]:  gyro restart
+
+Times: 8.052s   1025
+[INFO]:  gyro restart
+
+Times: 8.077s   1026
+[INFO]:  gyro restart
+
+Times: 8.102s   1027
+[INFO]:  gyro restart
+
+Times: 8.127s   1028
+[INFO]:  gyro restart
+
+Times: 8.152s   1029
+[INFO]:  gyro restart
+
+Times: 8.177s   1030
+[INFO]:  gyro restart
+
+Times: 8.197s   1031
+[INFO]:  z:5064.78,wz:0.00,zData:-769,wzData:0 
+
+Times: 8.202s   1032
+[INFO]:  gyro restart
+
+Times: 8.227s   1033
+[INFO]:  gyro restart
+
+Times: 8.252s   1034
+[INFO]:  gyro restart
+
+Times: 8.277s   1035
+[INFO]:  gyro restart
+
+Times: 8.302s   1036
+[INFO]:  gyro restart
+
+Times: 8.327s   1037
+[INFO]:  gyro restart
+
+Times: 8.352s   1038
+[INFO]:  gyro restart
+
+Times: 8.377s   1039
+[INFO]:  gyro restart
+
+Times: 8.402s   1040
+[INFO]:  gyro restart
+
+Times: 8.427s   1041
+[INFO]:  gyro restart
+
+Times: 8.452s   1042
+[INFO]:  gyro restart
+
+Times: 8.477s   1043
+[INFO]:  gyro restart
+
+Times: 8.502s   1044
+[INFO]:  gyro restart
+
+Times: 8.527s   1045
+[INFO]:  gyro restart
+
+Times: 8.552s   1046
+[INFO]:  gyro restart
+
+Times: 8.577s   1047
+[INFO]:  gyro restart
+
+Times: 8.602s   1048
+[INFO]:  gyro restart
+
+Times: 8.627s   1049
+[INFO]:  gyro restart
+
+Times: 8.652s   1050
+[INFO]:  gyro restart
+
+Times: 8.677s   1051
+[INFO]:  gyro restart
+
+Times: 8.697s   1052
+[INFO]:  z:5487.19,wz:0.00,zData:-769,wzData:0 
+
+Times: 8.702s   1053
+[INFO]:  gyro restart
+
+Times: 8.727s   1054
+[INFO]:  gyro restart
+
+Times: 8.752s   1055
+[INFO]:  gyro restart
+
+Times: 8.777s   1056
+[INFO]:  gyro restart
+
+Times: 8.802s   1057
+[INFO]:  gyro restart
+
+Times: 8.827s   1058
+[INFO]:  gyro restart
+
+Times: 8.852s   1059
+[INFO]:  gyro restart
+
+Times: 8.877s   1060
+[INFO]:  gyro restart
+
+Times: 8.902s   1061
+[INFO]:  gyro restart
+
+Times: 8.927s   1062
+[INFO]:  gyro restart
+
+Times: 1.500s   1063
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   1064
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   1065
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   1066
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   1067
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   1068
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   1069
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   1070
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   1071
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   1072
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   1073
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.202s   1074
+[INFO]:  gyro is initialized
+
+Times: 2.500s   1075
+[INFO]:  bspTaskStart is running
+
+Times: 2.697s   1076
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 3.197s   1077
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 3.697s   1078
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 4.197s   1079
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 4.697s   1080
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 5.197s   1081
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 5.697s   1082
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 6.197s   1083
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 6.697s   1084
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 7.197s   1085
+[INFO]:  z:0.00,wz:0.00,zData:0,wzData:0 
+
+Times: 7.697s   1086
+[INFO]:  z:-75.94,wz:-2.08,zData:-13825,wzData:-34 
+
+Times: 8.197s   1087
+[INFO]:  z:116.67,wz:-25.82,zData:21239,wzData:-423 
+
+Times: 8.652s cmdTask   1088
+[ERROR]:  uart2 lost frame 2
+
+Times: 8.697s   1089
+[INFO]:  z:-53.51,wz:0.43,zData:-9741,wzData:7 
+
+Times: 9.197s   1090
+[INFO]:  z:-42.26,wz:0.18,zData:-7693,wzData:3 
+
+Times: 9.697s   1091
+[INFO]:  z:-35.23,wz:0.00,zData:-6413,wzData:0 
+
+Times: 10.197s   1092
+[INFO]:  z:-26.78,wz:14.28,zData:-4876,wzData:234 
+
+Times: 10.697s   1093
+[INFO]:  z:-158.91,wz:27.22,zData:-28929,wzData:446 
+
+Times: 11.197s   1094
+[INFO]:  z:-44.98,wz:0.00,zData:-8188,wzData:0 
+
+Times: 11.697s   1095
+[INFO]:  z:-64.67,wz:0.00,zData:-11772,wzData:0 
+
+Times: 12.197s   1096
+[INFO]:  z:-78.73,wz:-0.85,zData:-14332,wzData:-14 
+
+Times: 12.697s   1097
+[INFO]:  z:154.70,wz:-18.62,zData:28162,wzData:-305 
+
+Times: 13.197s   1098
+[INFO]:  z:142.03,wz:0.00,zData:25856,wzData:0 
+
+Times: 13.697s   1099
+[INFO]:  z:174.38,wz:0.00,zData:31744,wzData:0 
+
+Times: 14.197s   1100
+[INFO]:  z:175.78,wz:0.00,zData:32000,wzData:0 
+
+Times: 14.697s   1101
+[INFO]:  z:175.78,wz:0.00,zData:32000,wzData:0 
+
+Times: 15.197s   1102
+[INFO]:  z:175.78,wz:0.00,zData:32000,wzData:0 
+
+Times: 15.697s   1103
+[INFO]:  z:175.78,wz:0.00,zData:32000,wzData:0 
+
+Times: 16.197s   1104
+[INFO]:  z:175.78,wz:0.00,zData:32000,wzData:0 
+
+Times: 16.697s   1105
+[INFO]:  z:-133.59,wz:0.43,zData:-24320,wzData:7 
+
+Times: 17.197s   1106
+[INFO]:  z:-32.34,wz:12.70,zData:-5887,wzData:208 
+
+Times: 17.697s   1107
+[INFO]:  z:-123.71,wz:20.51,zData:-22521,wzData:336 
+
+Times: 18.197s   1108
+[INFO]:  z:122.44,wz:16.85,zData:22290,wzData:276 
+
+Times: 18.697s   1109
+[INFO]:  z:25.42,wz:0.00,zData:4627,wzData:0 
+
+Times: 19.197s   1110
+[INFO]:  z:18.39,wz:0.00,zData:3347,wzData:0 
+
+Times: 19.697s   1111
+[INFO]:  z:-163.03,wz:-11.35,zData:-29678,wzData:-186 
+
+Times: 20.197s   1112
+[INFO]:  z:-74.50,wz:-40.10,zData:-13563,wzData:-657 
+
+Times: 20.697s   1113
+[INFO]:  z:-74.53,wz:1.83,zData:-13567,wzData:30 
+
+Times: 21.197s   1114
+[INFO]:  z:-43.59,wz:0.00,zData:-7935,wzData:0 
+
+Times: 21.697s   1115
+[INFO]:  z:-43.59,wz:0.00,zData:-7935,wzData:0 
+
+Times: 22.197s   1116
+[INFO]:  z:-43.59,wz:0.00,zData:-7935,wzData:0 
+
+Times: 22.697s   1117
+[INFO]:  z:-43.59,wz:0.00,zData:-7935,wzData:0 
+
+Times: 23.197s   1118
+[INFO]:  z:-43.59,wz:0.00,zData:-7935,wzData:0 
+
+Times: 1.500s   1119
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   1120
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   1121
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   1122
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   1123
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   1124
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   1125
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   1126
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   1127
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   1128
+[INFO]:  pid init from eeprom
+
+Times: 2.500s   1129
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   1130
+[INFO]:  gyro restart
+
+Times: 3.402s   1131
+[INFO]:  gyro restart
+
+Times: 4.152s   1132
+[INFO]:  gyro restart
+
+Times: 4.902s   1133
+[INFO]:  gyro restart
+
+Times: 5.652s   1134
+[INFO]:  gyro restart
+
+Times: 6.402s   1135
+[INFO]:  gyro restart
+
+Times: 7.152s   1136
+[INFO]:  gyro restart
+
+Times: 7.902s   1137
+[INFO]:  gyro restart
+
+Times: 8.652s   1138
+[INFO]:  gyro restart
+
+Times: 9.402s   1139
+[INFO]:  gyro restart
+
+Times: 10.152s   1140
+[INFO]:  gyro restart
+
+Times: 10.902s   1141
+[INFO]:  gyro restart
+
+Times: 0.000s   1142
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   1143
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   1144
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   1145
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   1146
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   1147
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   1148
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   1149
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   1150
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   1151
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   1152
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   1153
+[INFO]:  gyro is initialing, angle = -108.204346, offset = -108.204346
+
+Times: 2.202s   1154
+[INFO]:  gyro is initialized
+
+Times: 2.292s   1155
+[INFO]:  gyro restart
+
+Times: 2.317s   1156
+[INFO]:  gyro restart
+
+Times: 2.342s   1157
+[INFO]:  gyro restart
+
+Times: 2.367s   1158
+[INFO]:  gyro restart
+
+Times: 2.392s   1159
+[INFO]:  gyro restart
+
+Times: 2.417s   1160
+[INFO]:  gyro restart
+
+Times: 2.442s   1161
+[INFO]:  gyro restart
+
+Times: 2.467s   1162
+[INFO]:  gyro restart
+
+Times: 2.492s   1163
+[INFO]:  gyro restart
+
+Times: 2.501s   1164
+[INFO]:  bspTaskStart is running
+
+Times: 2.517s   1165
+[INFO]:  gyro restart
+
+Times: 2.542s   1166
+[INFO]:  gyro restart
+
+Times: 2.567s   1167
+[INFO]:  gyro restart
+
+Times: 2.592s   1168
+[INFO]:  gyro restart
+
+Times: 2.617s   1169
+[INFO]:  gyro restart
+
+Times: 2.642s   1170
+[INFO]:  gyro restart
+
+Times: 2.667s   1171
+[INFO]:  gyro restart
+
+Times: 2.692s   1172
+[INFO]:  gyro restart
+
+Times: 2.697s   1173
+[INFO]:  z:9305.56,wz:0.00,zData:-19698,wzData:0 
+
+Times: 2.717s   1174
+[INFO]:  gyro restart
+
+Times: 2.742s   1175
+[INFO]:  gyro restart
+
+Times: 2.767s   1176
+[INFO]:  gyro restart
+
+Times: 2.792s   1177
+[INFO]:  gyro restart
+
+Times: 2.817s   1178
+[INFO]:  gyro restart
+
+Times: 2.842s   1179
+[INFO]:  gyro restart
+
+Times: 2.867s   1180
+[INFO]:  gyro restart
+
+Times: 2.892s   1181
+[INFO]:  gyro restart
+
+Times: 2.917s   1182
+[INFO]:  gyro restart
+
+Times: 2.942s   1183
+[INFO]:  gyro restart
+
+Times: 2.967s   1184
+[INFO]:  gyro restart
+
+Times: 2.992s   1185
+[INFO]:  gyro restart
+
+Times: 3.017s   1186
+[INFO]:  gyro restart
+
+Times: 3.042s   1187
+[INFO]:  gyro restart
+
+Times: 3.067s   1188
+[INFO]:  gyro restart
+
+Times: 3.092s   1189
+[INFO]:  gyro restart
+
+Times: 3.117s   1190
+[INFO]:  gyro restart
+
+Times: 3.142s   1191
+[INFO]:  gyro restart
+
+Times: 3.167s   1192
+[INFO]:  gyro restart
+
+Times: 3.192s   1193
+[INFO]:  gyro restart
+
+Times: 3.197s   1194
+[INFO]:  z:20126.01,wz:0.00,zData:-19698,wzData:0 
+
+Times: 3.217s   1195
+[INFO]:  gyro restart
+
+Times: 3.242s   1196
+[INFO]:  gyro restart
+
+Times: 3.267s   1197
+[INFO]:  gyro restart
+
+Times: 3.292s   1198
+[INFO]:  gyro restart
+
+Times: 3.317s   1199
+[INFO]:  gyro restart
+
+Times: 3.342s   1200
+[INFO]:  gyro restart
+
+Times: 3.367s   1201
+[INFO]:  gyro restart
+
+Times: 3.392s   1202
+[INFO]:  gyro restart
+
+Times: 3.417s   1203
+[INFO]:  gyro restart
+
+Times: 3.442s   1204
+[INFO]:  gyro restart
+
+Times: 3.467s   1205
+[INFO]:  gyro restart
+
+Times: 3.492s   1206
+[INFO]:  gyro restart
+
+Times: 3.517s   1207
+[INFO]:  gyro restart
+
+Times: 3.542s   1208
+[INFO]:  gyro restart
+
+Times: 3.567s   1209
+[INFO]:  gyro restart
+
+Times: 3.592s   1210
+[INFO]:  gyro restart
+
+Times: 3.617s   1211
+[INFO]:  gyro restart
+
+Times: 3.642s   1212
+[INFO]:  gyro restart
+
+Times: 3.667s   1213
+[INFO]:  gyro restart
+
+Times: 3.692s   1214
+[INFO]:  gyro restart
+
+Times: 3.697s   1215
+[INFO]:  z:30946.51,wz:0.00,zData:-19698,wzData:0 
+
+Times: 3.717s   1216
+[INFO]:  gyro restart
+
+Times: 3.742s   1217
+[INFO]:  gyro restart
+
+Times: 3.767s   1218
+[INFO]:  gyro restart
+
+Times: 3.792s   1219
+[INFO]:  gyro restart
+
+Times: 3.817s   1220
+[INFO]:  gyro restart
+
+Times: 3.842s   1221
+[INFO]:  gyro restart
+
+Times: 3.867s   1222
+[INFO]:  gyro restart
+
+Times: 3.892s   1223
+[INFO]:  gyro restart
+
+Times: 3.917s   1224
+[INFO]:  gyro restart
+
+Times: 3.942s   1225
+[INFO]:  gyro restart
+
+Times: 3.967s   1226
+[INFO]:  gyro restart
+
+Times: 3.992s   1227
+[INFO]:  gyro restart
+
+Times: 4.017s   1228
+[INFO]:  gyro restart
+
+Times: 4.042s   1229
+[INFO]:  gyro restart
+
+Times: 4.067s   1230
+[INFO]:  gyro restart
+
+Times: 4.092s   1231
+[INFO]:  gyro restart
+
+Times: 4.117s   1232
+[INFO]:  gyro restart
+
+Times: 4.142s   1233
+[INFO]:  gyro restart
+
+Times: 4.167s   1234
+[INFO]:  gyro restart
+
+Times: 4.192s   1235
+[INFO]:  gyro restart
+
+Times: 4.197s   1236
+[INFO]:  z:41766.86,wz:0.00,zData:-19698,wzData:0 
+
+Times: 4.217s   1237
+[INFO]:  gyro restart
+
+Times: 4.242s   1238
+[INFO]:  gyro restart
+
+Times: 4.267s   1239
+[INFO]:  gyro restart
+
+Times: 4.292s   1240
+[INFO]:  gyro restart
+
+Times: 4.317s   1241
+[INFO]:  gyro restart
+
+Times: 4.342s   1242
+[INFO]:  gyro restart
+
+Times: 4.367s   1243
+[INFO]:  gyro restart
+
+Times: 4.392s   1244
+[INFO]:  gyro restart
+
+Times: 4.417s   1245
+[INFO]:  gyro restart
+
+Times: 4.442s   1246
+[INFO]:  gyro restart
+
+Times: 4.467s   1247
+[INFO]:  gyro restart
+
+Times: 4.492s   1248
+[INFO]:  gyro restart
+
+Times: 4.517s   1249
+[INFO]:  gyro restart
+
+Times: 4.542s   1250
+[INFO]:  gyro restart
+
+Times: 4.567s   1251
+[INFO]:  gyro restart
+
+Times: 4.592s   1252
+[INFO]:  gyro restart
+
+Times: 4.617s   1253
+[INFO]:  gyro restart
+
+Times: 4.642s   1254
+[INFO]:  gyro restart
+
+Times: 4.667s   1255
+[INFO]:  gyro restart
+
+Times: 4.692s   1256
+[INFO]:  gyro restart
+
+Times: 4.697s   1257
+[INFO]:  z:52587.17,wz:0.00,zData:-19698,wzData:0 
+
+Times: 4.717s   1258
+[INFO]:  gyro restart
+
+Times: 4.742s   1259
+[INFO]:  gyro restart
+
+Times: 5.617s   1260
+[INFO]:  gyro restart
+
+Times: 5.642s   1261
+[INFO]:  gyro restart
+
+Times: 5.667s   1262
+[INFO]:  gyro restart
+
+Times: 5.692s   1263
+[INFO]:  gyro restart
+
+Times: 5.697s   1264
+[INFO]:  z:74227.80,wz:0.00,zData:-19698,wzData:0 
+
+Times: 5.717s   1265
+[INFO]:  gyro restart
+
+Times: 5.742s   1266
+[INFO]:  gyro restart
+
+Times: 5.767s   1267
+[INFO]:  gyro restart
+
+Times: 5.792s   1268
+[INFO]:  gyro restart
+
+Times: 5.817s   1269
+[INFO]:  gyro restart
+
+Times: 5.842s   1270
+[INFO]:  gyro restart
+
+Times: 5.867s   1271
+[INFO]:  gyro restart
+
+Times: 5.892s   1272
+[INFO]:  gyro restart
+
+Times: 5.917s   1273
+[INFO]:  gyro restart
+
+Times: 5.942s   1274
+[INFO]:  gyro restart
+
+Times: 5.967s   1275
+[INFO]:  gyro restart
+
+Times: 5.992s   1276
+[INFO]:  gyro restart
+
+Times: 6.017s   1277
+[INFO]:  gyro restart
+
+Times: 6.042s   1278
+[INFO]:  gyro restart
+
+Times: 6.067s   1279
+[INFO]:  gyro restart
+
+Times: 6.092s   1280
+[INFO]:  gyro restart
+
+Times: 6.117s   1281
+[INFO]:  gyro restart
+
+Times: 6.142s   1282
+[INFO]:  gyro restart
+
+Times: 6.167s   1283
+[INFO]:  gyro restart
+
+Times: 6.192s   1284
+[INFO]:  gyro restart
+
+Times: 6.197s   1285
+[INFO]:  z:85048.11,wz:0.00,zData:-19698,wzData:0 
+
+Times: 6.217s   1286
+[INFO]:  gyro restart
+
+Times: 6.242s   1287
+[INFO]:  gyro restart
+
+Times: 6.267s   1288
+[INFO]:  gyro restart
+
+Times: 6.292s   1289
+[INFO]:  gyro restart
+
+Times: 6.317s   1290
+[INFO]:  gyro restart
+
+Times: 6.342s   1291
+[INFO]:  gyro restart
+
+Times: 6.367s   1292
+[INFO]:  gyro restart
+
+Times: 6.392s   1293
+[INFO]:  gyro restart
+
+Times: 6.417s   1294
+[INFO]:  gyro restart
+
+Times: 6.442s   1295
+[INFO]:  gyro restart
+
+Times: 6.467s   1296
+[INFO]:  gyro restart
+
+Times: 6.492s   1297
+[INFO]:  gyro restart
+
+Times: 6.517s   1298
+[INFO]:  gyro restart
+
+Times: 6.542s   1299
+[INFO]:  gyro restart
+
+Times: 6.567s   1300
+[INFO]:  gyro restart
+
+Times: 6.592s   1301
+[INFO]:  gyro restart
+
+Times: 6.617s   1302
+[INFO]:  gyro restart
+
+Times: 6.642s   1303
+[INFO]:  gyro restart
+
+Times: 6.667s   1304
+[INFO]:  gyro restart
+
+Times: 6.692s   1305
+[INFO]:  gyro restart
+
+Times: 6.697s   1306
+[INFO]:  z:95868.42,wz:0.00,zData:-19698,wzData:0 
+
+Times: 6.717s   1307
+[INFO]:  gyro restart
+
+Times: 6.742s   1308
+[INFO]:  gyro restart
+
+Times: 6.767s   1309
+[INFO]:  gyro restart
+
+Times: 6.792s   1310
+[INFO]:  gyro restart
+
+Times: 6.817s   1311
+[INFO]:  gyro restart
+
+Times: 6.842s   1312
+[INFO]:  gyro restart
+
+Times: 6.867s   1313
+[INFO]:  gyro restart
+
+Times: 6.892s   1314
+[INFO]:  gyro restart
+
+Times: 6.917s   1315
+[INFO]:  gyro restart
+
+Times: 6.942s   1316
+[INFO]:  gyro restart
+
+Times: 6.967s   1317
+[INFO]:  gyro restart
+
+Times: 6.992s   1318
+[INFO]:  gyro restart
+
+Times: 7.017s   1319
+[INFO]:  gyro restart
+
+Times: 7.042s   1320
+[INFO]:  gyro restart
+
+Times: 7.067s   1321
+[INFO]:  gyro restart
+
+Times: 7.092s   1322
+[INFO]:  gyro restart
+
+Times: 7.117s   1323
+[INFO]:  gyro restart
+
+Times: 7.142s   1324
+[INFO]:  gyro restart
+
+Times: 7.167s   1325
+[INFO]:  gyro restart
+
+Times: 7.192s   1326
+[INFO]:  gyro restart
+
+Times: 7.197s   1327
+[INFO]:  z:106688.73,wz:0.00,zData:-19698,wzData:0 
+
+Times: 7.217s   1328
+[INFO]:  gyro restart
+
+Times: 7.242s   1329
+[INFO]:  gyro restart
+
+Times: 7.267s   1330
+[INFO]:  gyro restart
+
+Times: 7.292s   1331
+[INFO]:  gyro restart
+
+Times: 7.317s   1332
+[INFO]:  gyro restart
+
+Times: 7.342s   1333
+[INFO]:  gyro restart
+
+Times: 7.367s   1334
+[INFO]:  gyro restart
+
+Times: 7.392s   1335
+[INFO]:  gyro restart
+
+Times: 7.417s   1336
+[INFO]:  gyro restart
+
+Times: 7.442s   1337
+[INFO]:  gyro restart
+
+Times: 7.467s   1338
+[INFO]:  gyro restart
+
+Times: 7.492s   1339
+[INFO]:  gyro restart
+
+Times: 7.517s   1340
+[INFO]:  gyro restart
+
+Times: 7.542s   1341
+[INFO]:  gyro restart
+
+Times: 7.567s   1342
+[INFO]:  gyro restart
+
+Times: 7.592s   1343
+[INFO]:  gyro restart
+
+Times: 7.617s   1344
+[INFO]:  gyro restart
+
+Times: 7.642s   1345
+[INFO]:  gyro restart
+
+Times: 7.667s   1346
+[INFO]:  gyro restart
+
+Times: 7.692s   1347
+[INFO]:  gyro restart
+
+Times: 7.697s   1348
+[INFO]:  z:117509.05,wz:0.00,zData:-19698,wzData:0 
+
+Times: 7.717s   1349
+[INFO]:  gyro restart
+
+Times: 7.742s   1350
+[INFO]:  gyro restart
+
+Times: 7.767s   1351
+[INFO]:  gyro restart
+
+Times: 7.792s   1352
+[INFO]:  gyro restart
+
+Times: 7.817s   1353
+[INFO]:  gyro restart
+
+Times: 7.842s   1354
+[INFO]:  gyro restart
+
+Times: 7.867s   1355
+[INFO]:  gyro restart
+
+Times: 7.892s   1356
+[INFO]:  gyro restart
+
+Times: 7.917s   1357
+[INFO]:  gyro restart
+
+Times: 7.942s   1358
+[INFO]:  gyro restart
+
+Times: 7.967s   1359
+[INFO]:  gyro restart
+
+Times: 7.992s   1360
+[INFO]:  gyro restart
+
+Times: 8.017s   1361
+[INFO]:  gyro restart
+
+Times: 8.042s   1362
+[INFO]:  gyro restart
+
+Times: 8.067s   1363
+[INFO]:  gyro restart
+
+Times: 8.092s   1364
+[INFO]:  gyro restart
+
+Times: 8.117s   1365
+[INFO]:  gyro restart
+
+Times: 8.142s   1366
+[INFO]:  gyro restart
+
+Times: 8.167s   1367
+[INFO]:  gyro restart
+
+Times: 8.192s   1368
+[INFO]:  gyro restart
+
+Times: 8.197s   1369
+[INFO]:  z:128329.36,wz:0.00,zData:-19698,wzData:0 
+
+Times: 8.217s   1370
+[INFO]:  gyro restart
+
+Times: 8.242s   1371
+[INFO]:  gyro restart
+
+Times: 8.267s   1372
+[INFO]:  gyro restart
+
+Times: 8.292s   1373
+[INFO]:  gyro restart
+
+Times: 8.317s   1374
+[INFO]:  gyro restart
+
+Times: 8.342s   1375
+[INFO]:  gyro restart
+
+Times: 8.367s   1376
+[INFO]:  gyro restart
+
+Times: 8.392s   1377
+[INFO]:  gyro restart
+
+Times: 8.417s   1378
+[INFO]:  gyro restart
+
+Times: 8.442s   1379
+[INFO]:  gyro restart
+
+Times: 8.467s   1380
+[INFO]:  gyro restart
+
+Times: 8.492s   1381
+[INFO]:  gyro restart
+
+Times: 8.517s   1382
+[INFO]:  gyro restart
+
+Times: 8.542s   1383
+[INFO]:  gyro restart
+
+Times: 8.567s   1384
+[INFO]:  gyro restart
+
+Times: 8.592s   1385
+[INFO]:  gyro restart
+
+Times: 8.617s   1386
+[INFO]:  gyro restart
+
+Times: 8.642s   1387
+[INFO]:  gyro restart
+
+Times: 8.667s   1388
+[INFO]:  gyro restart
+
+Times: 8.692s   1389
+[INFO]:  gyro restart
+
+Times: 8.697s   1390
+[INFO]:  z:139149.67,wz:0.00,zData:-19698,wzData:0 
+
+Times: 8.717s   1391
+[INFO]:  gyro restart
+
+Times: 8.742s   1392
+[INFO]:  gyro restart
+
+Times: 8.767s   1393
+[INFO]:  gyro restart
+
+Times: 8.792s   1394
+[INFO]:  gyro restart
+
+Times: 8.817s   1395
+[INFO]:  gyro restart
+
+Times: 8.842s   1396
+[INFO]:  gyro restart
+
+Times: 8.867s   1397
+[INFO]:  gyro restart
+
+Times: 8.892s   1398
+[INFO]:  gyro restart
+
+Times: 8.917s   1399
+[INFO]:  gyro restart
+
+Times: 8.942s   1400
+[INFO]:  gyro restart
+
+Times: 8.967s   1401
+[INFO]:  gyro restart
+
+Times: 8.992s   1402
+[INFO]:  gyro restart
+
+Times: 9.017s   1403
+[INFO]:  gyro restart
+
+Times: 9.042s   1404
+[INFO]:  gyro restart
+
+Times: 9.067s   1405
+[INFO]:  gyro restart
+
+Times: 9.092s   1406
+[INFO]:  gyro restart
+
+Times: 9.117s   1407
+[INFO]:  gyro restart
+
+Times: 9.142s   1408
+[INFO]:  gyro restart
+
+Times: 9.167s   1409
+[INFO]:  gyro restart
+
+Times: 9.192s   1410
+[INFO]:  gyro restart
+
+Times: 9.197s   1411
+[INFO]:  z:149969.98,wz:0.00,zData:-19698,wzData:0 
+
+Times: 9.217s   1412
+[INFO]:  gyro restart
+
+Times: 9.242s   1413
+[INFO]:  gyro restart
+
+Times: 9.267s   1414
+[INFO]:  gyro restart
+
+Times: 9.292s   1415
+[INFO]:  gyro restart
+
+Times: 9.317s   1416
+[INFO]:  gyro restart
+
+Times: 9.342s   1417
+[INFO]:  gyro restart
+
+Times: 9.367s   1418
+[INFO]:  gyro restart
+
+Times: 9.392s   1419
+[INFO]:  gyro restart
+
+Times: 9.417s   1420
+[INFO]:  gyro restart
+
+Times: 9.442s   1421
+[INFO]:  gyro restart
+
+Times: 9.467s   1422
+[INFO]:  gyro restart
+
+Times: 9.492s   1423
+[INFO]:  gyro restart
+
+Times: 9.517s   1424
+[INFO]:  gyro restart
+
+Times: 9.542s   1425
+[INFO]:  gyro restart
+
+Times: 9.567s   1426
+[INFO]:  gyro restart
+
+Times: 9.592s   1427
+[INFO]:  gyro restart
+
+Times: 9.617s   1428
+[INFO]:  gyro restart
+
+Times: 9.642s   1429
+[INFO]:  gyro restart
+
+Times: 9.667s   1430
+[INFO]:  gyro restart
+
+Times: 9.692s   1431
+[INFO]:  gyro restart
+
+Times: 9.697s   1432
+[INFO]:  z:160790.30,wz:0.00,zData:-19698,wzData:0 
+
+Times: 9.717s   1433
+[INFO]:  gyro restart
+
+Times: 9.742s   1434
+[INFO]:  gyro restart
+
+Times: 9.767s   1435
+[INFO]:  gyro restart
+
+Times: 9.792s   1436
+[INFO]:  gyro restart
+
+Times: 9.817s   1437
+[INFO]:  gyro restart
+
+Times: 9.842s   1438
+[INFO]:  gyro restart
+
+Times: 9.867s   1439
+[INFO]:  gyro restart
+
+Times: 9.892s   1440
+[INFO]:  gyro restart
+
+Times: 9.917s   1441
+[INFO]:  gyro restart
+
+Times: 9.942s   1442
+[INFO]:  gyro restart
+
+Times: 9.967s   1443
+[INFO]:  gyro restart
+
+Times: 9.992s   1444
+[INFO]:  gyro restart
+
+Times: 10.017s   1445
+[INFO]:  gyro restart
+
+Times: 10.042s   1446
+[INFO]:  gyro restart
+
+Times: 10.067s   1447
+[INFO]:  gyro restart
+
+Times: 10.092s   1448
+[INFO]:  gyro restart
+
+Times: 10.117s   1449
+[INFO]:  gyro restart
+
+Times: 10.142s   1450
+[INFO]:  gyro restart
+
+Times: 10.167s   1451
+[INFO]:  gyro restart
+
+Times: 10.192s   1452
+[INFO]:  gyro restart
+
+Times: 10.197s   1453
+[INFO]:  z:171610.61,wz:0.00,zData:-19698,wzData:0 
+
+Times: 10.217s   1454
+[INFO]:  gyro restart
+
+Times: 10.242s   1455
+[INFO]:  gyro restart
+
+Times: 10.267s   1456
+[INFO]:  gyro restart
+
+Times: 10.292s   1457
+[INFO]:  gyro restart
+
+Times: 10.317s   1458
+[INFO]:  gyro restart
+
+Times: 10.342s   1459
+[INFO]:  gyro restart
+
+Times: 10.367s   1460
+[INFO]:  gyro restart
+
+Times: 10.392s   1461
+[INFO]:  gyro restart
+
+Times: 10.417s   1462
+[INFO]:  gyro restart
+
+Times: 10.442s   1463
+[INFO]:  gyro restart
+
+Times: 10.467s   1464
+[INFO]:  gyro restart
+
+Times: 10.492s   1465
+[INFO]:  gyro restart
+
+Times: 10.517s   1466
+[INFO]:  gyro restart
+
+Times: 10.542s   1467
+[INFO]:  gyro restart
+
+Times: 10.567s   1468
+[INFO]:  gyro restart
+
+Times: 10.592s   1469
+[INFO]:  gyro restart
+
+Times: 10.617s   1470
+[INFO]:  gyro restart
+
+Times: 10.642s   1471
+[INFO]:  gyro restart
+
+Times: 10.667s   1472
+[INFO]:  gyro restart
+
+Times: 10.692s   1473
+[INFO]:  gyro restart
+
+Times: 10.697s   1474
+[INFO]:  z:182430.92,wz:0.00,zData:-19698,wzData:0 
+
+Times: 0.000s   1475
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   1476
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   1477
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   1478
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   1479
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   1480
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   1481
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   1482
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   1483
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   1484
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   1485
+[INFO]:  pid init from eeprom
+
+Times: 2.501s   1486
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   1487
+[INFO]:  gyro restart
+
+Times: 3.402s   1488
+[INFO]:  gyro restart
+
+Times: 4.152s   1489
+[INFO]:  gyro restart
+
+Times: 4.902s   1490
+[INFO]:  gyro restart
+
+Times: 5.652s   1491
+[INFO]:  gyro restart
+
+Times: 6.402s   1492
+[INFO]:  gyro restart
+
+Times: 7.152s   1493
+[INFO]:  gyro restart
+
+Times: 7.902s   1494
+[INFO]:  gyro restart
+
+Times: 8.652s   1495
+[INFO]:  gyro restart
+
+Times: 9.402s   1496
+[INFO]:  gyro restart
+
+Times: 10.152s   1497
+[INFO]:  gyro restart
+
+Times: 10.902s   1498
+[INFO]:  gyro restart
+
+Times: 11.652s   1499
+[INFO]:  gyro restart
+
+Times: 12.402s   1500
+[INFO]:  gyro restart
+
+Times: 13.152s   1501
+[INFO]:  gyro restart
+
+Times: 13.902s   1502
+[INFO]:  gyro restart
+

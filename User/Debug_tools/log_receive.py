@@ -10,8 +10,8 @@ import serial
 class log:
     def __init__(self):
         self.LOG_PATH = "../Things/Logs/"
-        self.ser = serial.Serial("COM13", 921600)
-        self.RE_PATTERN = r"T0(\w+)/\[(.*?)\] (.*?)-"
+        self.ser = serial.Serial("COM12", 921600)
+        self.RE_PATTERN = r"T0(\w+)/\[(.*?)\](.*?)#"
         self.receive_thread = threading.Thread(target=self.receive_data, daemon=True)
         self.frame_count = 0
 
@@ -20,7 +20,7 @@ class log:
         while True:
             _temp = self.ser.read()
             _frame += _temp
-            if _temp == b"-" and self.ser.read() == b"T":
+            if _temp == b"#" and self.ser.read() == b"T":
                 self.update_text(_frame)
                 _frame.clear()
                 _frame.append(0x54)
@@ -55,8 +55,9 @@ class log:
 
         self.text_area.insert(
             tk.END,
-            "Times: " + temp_frame["time"] + "   " + str(self.frame_count) + "\n",
+            "Times: " + str(temp_frame["time"]) + "   " + str(self.frame_count) + "\n",
         )
+        print(22222)
         # self.text_area.tag_config("a", foreground="green")
         self.frame_count += 1
 
@@ -72,7 +73,7 @@ class log:
 
         self.text_area.insert(
             tk.END,
-            "[" + temp_frame["type"] + "]: " + temp_frame["content"] + "\n",
+            "[" + str(temp_frame["type"]) + "]: " + str(temp_frame["content"]) + "\n",
             font_type,
         )
         self.text_area.tag_config(font_type, foreground=font_type)
@@ -83,10 +84,18 @@ class log:
             r"E:\project\User\Things\Logs\Log_" + self.file_name + ".txt", "a"
         ) as file:
             file.write(
-                "Times: " + temp_frame["time"] + "   " + str(self.frame_count) + "\n"
+                "Times: "
+                + str(temp_frame["time"])
+                + "   "
+                + str(self.frame_count)
+                + "\n"
             )
             file.write(
-                "[" + temp_frame["type"] + "]: " + temp_frame["content"] + "\n\n"
+                "["
+                + str(temp_frame["type"])
+                + "]: "
+                + str(temp_frame["content"])
+                + "\n\n"
             )
 
     def UI_init(self):
@@ -104,34 +113,6 @@ class log:
         # 创建一个Frame用于排列下拉菜单
         self.selection_frame = tk.Frame(self.root)
         self.selection_frame.pack(pady=10)
-
-        # # 串口选择部分
-        # self.port_label = tk.Label(self.selection_frame, text="Select Port:")
-        # self.port_label.pack(side=tk.LEFT, padx=5)
-
-        # self.port_var = tk.StringVar()
-        # self.port_options = ["COM1", "COM2", "COM3", "COM13"]
-
-        # self.port_dropdown = ttk.Combobox(
-        #     selection_frame, textvariable=port_var, values=port_options
-        # )
-        # self.port_dropdown.pack(side=tk.LEFT, padx=5)
-
-        # # 波特率选择部分
-        # self.baudrate_label = tk.Label(selection_frame, text="Select Baudrate:")
-        # self.baudrate_label.pack(side=tk.LEFT, padx=5)
-
-        # self.baudrate_var = tk.StringVar()
-        # self.baudrate_options = ["9600", "14400", "19200", "38400", "57600", "115200"]
-        # self.baudrate_dropdown = ttk.Combobox(
-        #     selection_frame, textvariable=baudrate_var, values=baudrate_options
-        # )
-        # self.baudrate_dropdown.pack(side=tk.LEFT, padx=5)
-
-        # self.baudrate_button = tk.Button(
-        #     self.selection_frame, text="Select Baudrate", command=select_baudrate
-        # )
-        # self.baudrate_button.pack(side=tk.LEFT, padx=5)
 
     def start(self):
         self.UI_init()

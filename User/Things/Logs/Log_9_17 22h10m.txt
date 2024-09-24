@@ -1,0 +1,186 @@
+Times: 8.901s   1
+[INFO]:  THREE
+
+Times: 8.901s   2
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 9.011s   3
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 9.021s   4
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 11.916s   5
+[INFO]:  FOUR
+
+Times: 11.916s   6
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 12.026s   7
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 12.036s   8
+[INFO]:  servoControl id:0, pwm:1200
+
+Times: 38.941s   9
+[INFO]:  THREE
+
+Times: 38.941s   10
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 39.051s   11
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 39.061s   12
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 82.361s   13
+[INFO]:  FOUR
+
+Times: 82.361s   14
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 82.471s   15
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 82.481s   16
+[INFO]:  servoControl id:0, pwm:1200
+
+Times: 1.500s   17
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   18
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   19
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   20
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s   21
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   22
+[INFO]:  EEPROM Test Pass
+
+Times: 1.504s   23
+[INFO]:  LCD ID:7789
+
+Times: 1.636s   24
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.637s   25
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.640s   26
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   27
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   28
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   29
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   30
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   31
+[INFO]:  gyro is initialized
+
+Times: 2.500s   32
+[INFO]:  bspTaskStart is running
+
+Times: 8.560s   33
+[INFO]:  THREE
+
+Times: 8.560s   34
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 8.670s   35
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 8.680s   36
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 10.085s   37
+[INFO]:  THREE
+
+Times: 10.085s   38
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 10.195s   39
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 10.205s   40
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 11.055s   41
+[INFO]:  FOUR
+
+Times: 11.055s   42
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 11.165s   43
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 11.175s   44
+[INFO]:  servoControl id:0, pwm:1200
+
+Times: 17.827s   45
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 18.970s   46
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 20.446s   47
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 22.251s   48
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 23.687s   49
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 24.193s   50
+[INFO]:  servoControl id:0, pwm:1501
+
+Times: 24.512s   51
+[INFO]:  servoControl id:0, pwm:1502
+
+Times: 28.795s   52
+[INFO]:  THREE
+
+Times: 28.795s   53
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 28.905s   54
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 28.915s   55
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 29.450s   56
+[INFO]:  THREE
+
+Times: 29.450s   57
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 29.560s   58
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 29.570s   59
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 31.490s   60
+[INFO]:  FOUR
+
+Times: 31.490s   61
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 31.600s   62
+[INFO]:  servoControl id:2, pwm:1500
+

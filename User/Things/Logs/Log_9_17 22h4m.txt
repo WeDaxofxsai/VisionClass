@@ -1,0 +1,174 @@
+Times: 1.500s   1
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   2
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   3
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   4
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s   5
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   6
+[INFO]:  EEPROM Test Pass
+
+Times: 1.504s   7
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   8
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   9
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   10
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   11
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   12
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   13
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   14
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   15
+[INFO]:  gyro is initialized
+
+Times: 2.500s   16
+[INFO]:  bspTaskStart is running
+
+Times: 13.005s   17
+[INFO]:  ONE
+
+Times: 13.005s   18
+[INFO]:  x = 104.958366, y = 0.000000, z = 105.007278
+
+Times: 22.780s   19
+[INFO]:  ONE
+
+Times: 22.780s   20
+[INFO]:  x = 104.958366, y = 0.000000, z = 105.007278
+
+Times: 23.350s   21
+[INFO]:  ONE
+
+Times: 23.350s   22
+[INFO]:  x = 104.958366, y = 0.000000, z = 105.007278
+
+Times: 24.570s   23
+[INFO]:  ONE
+
+Times: 24.570s   24
+[INFO]:  x = 104.958366, y = 0.000000, z = 105.007278
+
+Times: 181.879s cmdTask   25
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 0.000s   26
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   27
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   28
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   29
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   30
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   31
+[INFO]:  LCD ID:7789
+
+Times: 1.635s   32
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.636s   33
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.639s   34
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   35
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   36
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   37
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   38
+[INFO]:  gyro is initialing, angle = -0.049438, offset = 0.000000
+
+Times: 2.102s   39
+[INFO]:  gyro is initialized
+
+Times: 2.477s cmdTask   40
+[ERROR]:  uartid: 2 lost frame: 31
+
+Times: 2.500s   41
+[INFO]:  bspTaskStart is running
+
+Times: 6.585s   42
+[INFO]:  ONE
+
+Times: 6.585s   43
+[INFO]:  x = 104.958366, y = 0.000000, z = 105.007278
+
+Times: 9.190s   44
+[INFO]:  THREE
+
+Times: None   45
+[None]: None
+
+Times: None   46
+[None]: None
+
+Times: None   47
+[None]: None
+
+Times: 32.395s   48
+[INFO]:  FOUR
+
+Times: None   49
+[None]: None
+
+Times: None   50
+[None]: None
+
+Times: None   51
+[None]: None
+
+Times: 34.285s   52
+[INFO]:  FOUR
+
+Times: None   53
+[None]: None
+
+Times: None   54
+[None]: None
+
+Times: None   55
+[None]: None
+
+Times: 35.975s   56
+[INFO]:  FOUR
+
+Times: None   57
+[None]: None
+
+Times: None   58
+[None]: None
+

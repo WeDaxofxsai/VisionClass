@@ -5,7 +5,7 @@ cap.set(cv.CAP_PROP_FRAME_WIDTH, 320)
 cap.set(cv.CAP_PROP_FRAME_HEIGHT, 240)
 flag = cap.isOpened()
 print(flag)
-index = "check_board"
+index = "white_ball"
 img_cnt = 0
 while flag:
     ret, frame = cap.read()
@@ -13,10 +13,7 @@ while flag:
     k = cv.waitKey(1) & 0xFF
     if k == ord("s"):  # 按下s键，进入下面的保存图片操作
         cv.imwrite(
-            "E://project//User//Things//Camera_calibration//"
-            + index
-            + str(img_cnt)
-            + ".jpg",
+            "E://project//User//Things//" + index + str(img_cnt) + ".jpg",
             frame,
         )
         img_cnt += 1

@@ -5,12 +5,9 @@ import threading
 
 from pyzbar import pyzbar
 
-# from Servo_control import qiu
-
 
 class Vision:
     def __init__(self):
-        self.a = 0
         self.COLOR_THRESHOLD = {
             # "green": {
             #     "Lower": np.array([0, 24, 68]),
@@ -29,9 +26,13 @@ class Vision:
                 "Upper": np.array([180, 255, 255]),
             },
             "blue": {
-                "Lower": np.array([102, 96, 128]),
-                "Upper": np.array([113, 255, 255]),
+                "Lower": np.array([85, 46, 221]),
+                "Upper": np.array([124, 255, 255]),
             },
+            # "blue": {
+            #     "Lower": np.array([102, 96, 128]),
+            #     "Upper": np.array([113, 255, 255]),
+            # },
             # "yellow": {
             #     "Lower": np.array([14, 86, 117]),
             #     "Upper": np.array([50, 255, 255]),
@@ -73,8 +74,7 @@ class Vision:
                     self.box = self.aim[0]
                 self.aim.clear()
                 self.__frame = frame.copy()
-                # cv.imshow("Vision", self.__frame)
-                # cv.waitKey(1)
+                # cv.imshow("frame", self.__frame)
             else:
                 print("Camera is not opened")
 
@@ -86,10 +86,11 @@ class Vision:
             self.event.wait()
             img = self.__frame.copy()  # 获取图像
             # 高斯模糊 和 HSV空间的转换
+            # cv.imshow("img", img)
             gs_img = cv.GaussianBlur(img, (3, 3), 0)
             hsv = cv.cvtColor(gs_img, cv.COLOR_BGR2HSV)
             opening_hsv = hsv.copy()
-            del gs_img, hsv
+            # del gs_img, hsv
 
             if self.color_aim == "red":
                 inRange_hsv_r = cv.inRange(
@@ -169,8 +170,12 @@ class Vision:
                     (x + w / 2, y + h / 2),
                     w * h,
                 ]
-                print(box)
+                # print(box)
                 self.box = box
+                cv.circle(img, (int(box[4][0]), int(box[4][1])), 10, (0, 0, 255), 5)
+                # cv.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 1)
+            cv.imshow("img", img)
+            cv.waitKey(1)
 
     def __normal_process(self):  # 图像处理
         while True:
@@ -207,7 +212,6 @@ class Vision:
                 self.COLOR_THRESHOLD["red2"]["Upper"],
             )
             inRange_hsv_r = cv.bitwise_or(inRange_hsv_r, inRange_hsv_r_2)
-
             # 合成目标二值化图像
             inRange_aim = cv.bitwise_or(inRange_hsv_r, inRange_hsv_b)
             inRange_aim = cv.bitwise_or(inRange_aim, inRange_hsv_y)
@@ -220,7 +224,7 @@ class Vision:
                 inRange_aim, cv.MORPH_CLOSE, self.__kernel_circle
             )
             # inRange_aim = cv.GaussianBlur(inRange_aim, (5, 5), 0)
-            cv.imshow("inRange_aim", inRange_aim)
+            # cv.imshow("inRange_aim", inRange_aim)
             # 轮廓检测
             contours = cv.findContours(
                 inRange_aim.copy(), cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE
@@ -347,7 +351,7 @@ class Vision:
                 ]
                 print("[Output]:", box)
                 self.aim.append(box)
-            cv.imshow("pro", img)
+            # cv.imshow("pro", img)
             cv.waitKey(1)
 
     def __QRcode_process(self):  # 二维码识别
@@ -398,7 +402,7 @@ class Vision:
                     ),
                     code.rect[2] * code.rect[3],
                 ]
-                cv.imshow("QRcode", QR_show)
+                # cv.imshow("QRcode", QR_show)
                 self.aim.append(box)
 
     def start_control(self):  # 启动控制
@@ -408,8 +412,8 @@ class Vision:
         fast_threading = threading.Thread(target=self.__fast_process)
         capture_threading.start()  # 启动拍照线程
         time.sleep(0.1)
-        # fast_threading.start()  # 启动快速处理线程
-        normal_threading.start()  # 启动图像处理线程
+        fast_threading.start()  # 启动快速处理线程
+        # normal_threading.start()  # 启动图像处理线程
         # QRcode_threading.start()  # 启动图像处理线程
         self.event.set()
 

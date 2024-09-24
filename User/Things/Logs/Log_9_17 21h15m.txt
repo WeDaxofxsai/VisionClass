@@ -1,0 +1,2037 @@
+Times: 1.500s   1
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   2
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   3
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   4
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   5
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   6
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   7
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   8
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   9
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   10
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   11
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   12
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.000000
+
+Times: 2.102s   13
+[INFO]:  gyro is initialized
+
+Times: 2.501s   14
+[INFO]:  bspTaskStart is running
+
+Times: 36.280s cmdTask   15
+[ERROR]:  uartid: 2, err: 7
+
+Times: 46.120s cmdTask   16
+[ERROR]:  uartid: 2, err: 7
+
+Times: 46.834s cmdTask   17
+[ERROR]:  uartid: 2, err: 7
+
+Times: 53.514s cmdTask   18
+[ERROR]:  uartid: 2, err: 7
+
+Times: 57.036s cmdTask   19
+[ERROR]:  uartid: 2, err: 7
+
+Times: 59.856s cmdTask   20
+[ERROR]:  uartid: 2, err: 7
+
+Times: 60.570s cmdTask   21
+[ERROR]:  uartid: 2, err: 7
+
+Times: 62.688s cmdTask   22
+[ERROR]:  uartid: 2, err: 7
+
+Times: 64.455s cmdTask   23
+[ERROR]:  uartid: 2, err: 7
+
+Times: 0.000s   24
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   25
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   26
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   27
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   28
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   29
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   30
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   31
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   32
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   33
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   34
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   35
+[INFO]:  gyro is initialing, angle = 0.021973, offset = 0.000000
+
+Times: 2.102s   36
+[INFO]:  gyro is initialized
+
+Times: 2.500s   37
+[INFO]:  bspTaskStart is running
+
+Times: 2.534s cmdTask   38
+[ERROR]:  uartid: 2 lost frame: 26
+
+Times: 15.260s   39
+[INFO]:  OK
+
+Times: 15.260s   40
+[INFO]:  RED
+
+Times: 15.260s   41
+[INFO]:  x = 97.364700, y = 0.000000, z = 193.728683
+
+Times: 15.262s   42
+[INFO]:  PATH
+
+Times: 15.262s   43
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 15.262s   44
+[INFO]:  distance:38892.23
+
+Times: 21.432s   45
+[INFO]:  WAIT 6.162s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 21.437s   46
+[INFO]:  SPIN
+
+Times: 23.542s   47
+[INFO]:  WAIT 2.100s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 23.547s   48
+[INFO]:  POSITION
+
+Times: 26.137s   49
+[INFO]:  WAIT 2.585s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 40.270s   50
+[INFO]:  ZERO
+
+Times: 40.272s   51
+[INFO]:  POSITION
+
+Times: 48.917s   52
+[INFO]:  WAIT 8.637s, file:.\..\BSP\KEY\key.c, line: 118
+
+Times: 48.922s   53
+[INFO]:  SPIN
+
+Times: 0.000s   54
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   55
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   56
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   57
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   58
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   59
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   60
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   61
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   62
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   63
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   64
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   65
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   66
+[INFO]:  gyro is initialing, angle = 0.021973, offset = 0.000000
+
+Times: 2.102s   67
+[INFO]:  gyro is initialized
+
+Times: 2.500s   68
+[INFO]:  bspTaskStart is running
+
+Times: 22.085s cmdTask   69
+[ERROR]:  uartid: 2, err: 7
+
+Times: 34.030s cmdTask   70
+[ERROR]:  uartid: 2, err: 7
+
+Times: 35.446s cmdTask   71
+[ERROR]:  uartid: 2, err: 7
+
+Times: 37.564s cmdTask   72
+[ERROR]:  uartid: 2, err: 7
+
+Times: 58.635s cmdTask   73
+[ERROR]:  uartid: 2, err: 7
+
+Times: 65.667s cmdTask   74
+[ERROR]:  uartid: 2, err: 7
+
+Times: 76.911s cmdTask   75
+[ERROR]:  uartid: 2, err: 7
+
+Times: 82.538s cmdTask   76
+[ERROR]:  uartid: 2, err: 7
+
+Times: 93.782s cmdTask   77
+[ERROR]:  uartid: 2, err: 7
+
+Times: 0.000s   78
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   79
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   80
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   81
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   82
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   83
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   84
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   85
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   86
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   87
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   88
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   89
+[INFO]:  gyro is initialing, angle = 0.021973, offset = 0.000000
+
+Times: 2.102s   90
+[INFO]:  gyro is initialized
+
+Times: 2.500s   91
+[INFO]:  bspTaskStart is running
+
+Times: 11.138s cmdTask   92
+[ERROR]:  uartid: 2 lost frame: 74
+
+Times: 11.356s   93
+[INFO]:  OK
+
+Times: 11.356s   94
+[INFO]:  RED
+
+Times: 11.356s   95
+[INFO]:  x = 97.364700, y = 0.000000, z = 193.728683
+
+Times: 11.357s   96
+[INFO]:  PATH
+
+Times: 11.357s   97
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 11.357s   98
+[INFO]:  distance:38892.22
+
+Times: 15.917s cmdTask   99
+[ERROR]:  uartid: 2, err: 7
+
+Times: 16.274s cmdTask   100
+[ERROR]:  uartid: 2, err: 7
+
+Times: 17.527s   101
+[INFO]:  WAIT 6.161s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 17.532s   102
+[INFO]:  SPIN
+
+Times: 19.637s   103
+[INFO]:  WAIT 2.100s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 19.642s   104
+[INFO]:  POSITION
+
+Times: 20.142s cmdTask   105
+[ERROR]:  uartid: 2 lost frame: 5
+
+Times: 20.142s   106
+[INFO]:  greyLine
+
+Times: 20.147s   107
+[INFO]:  STOP
+
+Times: 20.157s   108
+[INFO]:  POSITION_SET Y: -6800.00
+
+Times: 20.162s   109
+[INFO]:  WAIT 0.515s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 1.500s   110
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   111
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   112
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   113
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   114
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   115
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   116
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   117
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   118
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   119
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   120
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   121
+[INFO]:  gyro is initialing, angle = -0.005493, offset = 0.000000
+
+Times: 2.102s   122
+[INFO]:  gyro is initialized
+
+Times: 2.501s   123
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   124
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   125
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   126
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   127
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   128
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   129
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   130
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   131
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   132
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   133
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   134
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   135
+[INFO]:  gyro is initialing, angle = -0.005493, offset = 0.000000
+
+Times: 2.102s   136
+[INFO]:  gyro is initialized
+
+Times: 2.500s   137
+[INFO]:  bspTaskStart is running
+
+Times: 302.321s cmdTask   138
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 1.500s   139
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   140
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   141
+[INFO]:  armTaskStart is running
+
+Times: 1.502s   142
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   143
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   144
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   145
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   146
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   147
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   148
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   149
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   150
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   151
+[INFO]:  gyro is initialized
+
+Times: 2.502s   152
+[INFO]:  bspTaskStart is running
+
+Times: 7.300s cmdTask   153
+[ERROR]:  uartid: 2 lost frame: 4
+
+Times: 0.000s   154
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   155
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   156
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   157
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   158
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   159
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   160
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   161
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   162
+[INFO]:  displayTaskStart is running
+
+Times: 1.983s cmdTask   163
+[ERROR]:  uartid: 2 lost frame: 25
+
+Times: 2.100s   164
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   165
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   166
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   167
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.000000
+
+Times: 2.102s   168
+[INFO]:  gyro is initialized
+
+Times: 2.500s   169
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   170
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   171
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   172
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   173
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   174
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   175
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   176
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   177
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   178
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   179
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   180
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   181
+[INFO]:  gyro is initialing, angle = -0.005493, offset = 0.000000
+
+Times: 2.102s   182
+[INFO]:  gyro is initialized
+
+Times: 2.500s   183
+[INFO]:  bspTaskStart is running
+
+Times: 11.880s   184
+[INFO]:  OK
+
+Times: 11.880s   185
+[INFO]:  RED
+
+Times: 11.880s   186
+[INFO]:  x = 97.364700, y = 0.000000, z = 193.728683
+
+Times: 11.882s   187
+[INFO]:  PATH
+
+Times: 11.882s   188
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 11.882s   189
+[INFO]:  distance:38880.53
+
+Times: 13.091s cmdTask   190
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 18.047s   191
+[INFO]:  WAIT 6.157s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 18.052s   192
+[INFO]:  SPIN
+
+Times: 20.142s   193
+[INFO]:  WAIT 2.085s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 20.147s   194
+[INFO]:  POSITION
+
+Times: 23.002s   195
+[INFO]:  WAIT 2.850s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 1.500s   196
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   197
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   198
+[INFO]:  armTaskStart is running
+
+Times: 1.502s   199
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   200
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   201
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   202
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   203
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   204
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   205
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   206
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   207
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   208
+[INFO]:  gyro is initialized
+
+Times: 2.502s   209
+[INFO]:  bspTaskStart is running
+
+Times: 21.956s cmdTask   210
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 1.500s   211
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   212
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   213
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   214
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s   215
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   216
+[INFO]:  EEPROM Test Pass
+
+Times: 1.504s   217
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   218
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   219
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   220
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   221
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   222
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   223
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   224
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   225
+[INFO]:  gyro is initialized
+
+Times: 2.500s   226
+[INFO]:  bspTaskStart is running
+
+Times: 7.294s cmdTask   227
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 1.500s   228
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   229
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   230
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   231
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s   232
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   233
+[INFO]:  EEPROM Test Pass
+
+Times: 1.504s   234
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   235
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   236
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   237
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   238
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   239
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   240
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   241
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   242
+[INFO]:  gyro is initialized
+
+Times: 2.501s   243
+[INFO]:  bspTaskStart is running
+
+Times: 16.500s cmdTask   244
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 19.317s   245
+[INFO]:  OK
+
+Times: 19.317s   246
+[INFO]:  RED
+
+Times: 19.317s   247
+[INFO]:  x = 97.364700, y = 0.000000, z = 193.728683
+
+Times: 19.322s   248
+[INFO]:  PATH
+
+Times: 19.322s   249
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 19.322s   250
+[INFO]:  distance:38880.54
+
+Times: 25.487s   251
+[INFO]:  WAIT 6.160s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 25.492s   252
+[INFO]:  SPIN
+
+Times: 27.592s   253
+[INFO]:  WAIT 2.095s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 27.597s   254
+[INFO]:  POSITION
+
+Times: 30.437s   255
+[INFO]:  WAIT 2.835s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 1.500s   256
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   257
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   258
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   259
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   260
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   261
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   262
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   263
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   264
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   265
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   266
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   267
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.000000
+
+Times: 2.102s   268
+[INFO]:  gyro is initialized
+
+Times: 2.501s   269
+[INFO]:  bspTaskStart is running
+
+Times: 0.000s   270
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   271
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   272
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   273
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   274
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   275
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   276
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   277
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   278
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   279
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   280
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   281
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.000000
+
+Times: 2.102s   282
+[INFO]:  gyro is initialized
+
+Times: 2.500s   283
+[INFO]:  bspTaskStart is running
+
+Times: 9.415s   284
+[INFO]:  OK
+
+Times: 9.415s   285
+[INFO]:  RED
+
+Times: 9.415s   286
+[INFO]:  x = 97.364700, y = 0.000000, z = 193.728683
+
+Times: 9.417s   287
+[INFO]:  PATH
+
+Times: 9.417s   288
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 9.417s   289
+[INFO]:  distance:38880.53
+
+Times: 10.270s cmdTask   290
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 15.582s   291
+[INFO]:  WAIT 6.157s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 15.587s   292
+[INFO]:  SPIN
+
+Times: 17.677s   293
+[INFO]:  WAIT 2.085s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 17.682s   294
+[INFO]:  POSITION
+
+Times: 20.506s   295
+[INFO]:  greyLine
+
+Times: 20.507s   296
+[INFO]:  STOP
+
+Times: 20.517s   297
+[INFO]:  POSITION_SET Y: -6800.00
+
+Times: 20.526s   298
+[INFO]:  WAIT 2.839s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 50.950s   299
+[INFO]:  ZERO
+
+Times: 50.952s   300
+[INFO]:  POSITION
+
+Times: 59.547s   301
+[INFO]:  WAIT 8.587s, file:.\..\BSP\KEY\key.c, line: 118
+
+Times: 59.552s   302
+[INFO]:  SPIN
+
+Times: 0.000s   303
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   304
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   305
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   306
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   307
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   308
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   309
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   310
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   311
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   312
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   313
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   314
+[INFO]:  gyro is initialing, angle = -0.087891, offset = 0.000000
+
+Times: 2.102s   315
+[INFO]:  gyro is initialized
+
+Times: 2.501s   316
+[INFO]:  bspTaskStart is running
+
+Times: 27.222s cmdTask   317
+[ERROR]:  uartid: 2 lost frame: 29
+
+Times: 0.000s   318
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   319
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   320
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   321
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   322
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   323
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   324
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   325
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   326
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   327
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   328
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   329
+[INFO]:  gyro is initialing, angle = -0.098877, offset = 0.000000
+
+Times: 2.102s   330
+[INFO]:  gyro is initialized
+
+Times: 2.500s   331
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   332
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   333
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   334
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   335
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   336
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   337
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   338
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   339
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   340
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   341
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   342
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   343
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   344
+[INFO]:  gyro is initialized
+
+Times: 2.501s   345
+[INFO]:  bspTaskStart is running
+
+Times: 11.044s cmdTask   346
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 1.500s   347
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   348
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   349
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   350
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   351
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   352
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   353
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   354
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   355
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   356
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   357
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   358
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   359
+[INFO]:  gyro is initialized
+
+Times: 2.500s   360
+[INFO]:  bspTaskStart is running
+
+Times: 19.275s   361
+[INFO]:  OK
+
+Times: 19.275s   362
+[INFO]:  RED
+
+Times: 19.275s   363
+[INFO]:  x = 97.364700, y = 0.000000, z = 193.728683
+
+Times: 19.277s   364
+[INFO]:  PATH
+
+Times: 19.277s   365
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 19.277s   366
+[INFO]:  distance:38880.53
+
+Times: 25.366s cmdTask   367
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 25.442s   368
+[INFO]:  WAIT 6.157s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 25.447s   369
+[INFO]:  SPIN
+
+Times: 27.542s   370
+[INFO]:  WAIT 2.090s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 27.547s   371
+[INFO]:  POSITION
+
+Times: 30.521s   372
+[INFO]:  greyLine
+
+Times: 30.522s   373
+[INFO]:  STOP
+
+Times: 30.532s   374
+[INFO]:  POSITION_SET Y: -6800.00
+
+Times: 30.541s   375
+[INFO]:  WAIT 2.989s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 1.500s   376
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   377
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   378
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   379
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   380
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   381
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   382
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   383
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   384
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   385
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   386
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   387
+[INFO]:  gyro is initialing, angle = -0.005493, offset = 0.000000
+
+Times: 2.102s   388
+[INFO]:  gyro is initialized
+
+Times: 2.501s   389
+[INFO]:  bspTaskStart is running
+
+Times: 33.209s cmdTask   390
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 1.500s   391
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   392
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   393
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   394
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   395
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   396
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   397
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   398
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   399
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   400
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   401
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   402
+[INFO]:  gyro is initialing, angle = -0.005493, offset = 0.000000
+
+Times: 2.102s   403
+[INFO]:  gyro is initialized
+
+Times: 2.500s   404
+[INFO]:  bspTaskStart is running
+
+Times: 0.000s   405
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   406
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   407
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   408
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   409
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   410
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   411
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.635s   412
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   413
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   414
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   415
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   416
+[INFO]:  gyro is initialing, angle = -0.016479, offset = 0.000000
+
+Times: 2.102s   417
+[INFO]:  gyro is initialized
+
+Times: 2.500s   418
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   419
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   420
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   421
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   422
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   423
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   424
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   425
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   426
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   427
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   428
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   429
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   430
+[INFO]:  gyro is initialing, angle = -0.010986, offset = 0.000000
+
+Times: 2.102s   431
+[INFO]:  gyro is initialized
+
+Times: 2.500s   432
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   433
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   434
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   435
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   436
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   437
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   438
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   439
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   440
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   441
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   442
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   443
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   444
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   445
+[INFO]:  gyro is initialized
+
+Times: 2.500s   446
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   447
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   448
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   449
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   450
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   451
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   452
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   453
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   454
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   455
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   456
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   457
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   458
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.000000
+
+Times: 2.102s   459
+[INFO]:  gyro is initialized
+
+Times: 2.500s   460
+[INFO]:  bspTaskStart is running
+
+Times: 0.000s   461
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   462
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   463
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   464
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   465
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   466
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   467
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   468
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   469
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   470
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   471
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   472
+[INFO]:  gyro is initialing, angle = 0.010986, offset = 0.000000
+
+Times: 2.102s   473
+[INFO]:  gyro is initialized
+
+Times: 2.500s   474
+[INFO]:  bspTaskStart is running
+
+Times: 106.383s cmdTask   475
+[ERROR]:  uartid: 2 lost frame: 2
+
+Times: 1.500s   476
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   477
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   478
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   479
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   480
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   481
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   482
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   483
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   484
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   485
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   486
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   487
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   488
+[INFO]:  gyro is initialized
+
+Times: 2.500s   489
+[INFO]:  bspTaskStart is running
+
+Times: 64.239s cmdTask   490
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 93.910s   491
+[INFO]:  TWO
+
+Times: None   492
+[None]: None
+
+Times: 93.910s   493
+[INFO]:  pwm = 0
+
+Times: 1.500s   494
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   495
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   496
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   497
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   498
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   499
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   500
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   501
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   502
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   503
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   504
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   505
+[INFO]:  gyro is initialing, angle = -0.021973, offset = 0.000000
+
+Times: 2.102s   506
+[INFO]:  gyro is initialized
+
+Times: 2.500s   507
+[INFO]:  bspTaskStart is running
+
+Times: 15.240s   508
+[INFO]:  TWO
+
+Times: None   509
+[None]: None
+
+Times: 15.240s   510
+[INFO]:  pwm = 0
+
+Times: 1.500s   511
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   512
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   513
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   514
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s   515
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   516
+[INFO]:  EEPROM Test Pass
+
+Times: 1.504s   517
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   518
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   519
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   520
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   521
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   522
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   523
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   524
+[INFO]:  gyro is initialing, angle = -0.005493, offset = 0.000000
+
+Times: 2.102s   525
+[INFO]:  gyro is initialized
+
+Times: 2.500s   526
+[INFO]:  bspTaskStart is running
+
+Times: 94.928s cmdTask   527
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 0.000s   528
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   529
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   530
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   531
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   532
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   533
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   534
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   535
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   536
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   537
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   538
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   539
+[INFO]:  gyro is initialing, angle = -0.203247, offset = 0.000000
+
+Times: 2.102s   540
+[INFO]:  gyro is initialized
+
+Times: 2.500s   541
+[INFO]:  bspTaskStart is running
+
+Times: 2.861s cmdTask   542
+[ERROR]:  uartid: 2 lost frame: 17
+
+Times: 0.000s   543
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   544
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   545
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   546
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   547
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   548
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   549
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   550
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   551
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   552
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   553
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   554
+[INFO]:  gyro is initialing, angle = -0.203247, offset = 0.000000
+
+Times: 2.102s   555
+[INFO]:  gyro is initialized
+
+Times: 2.500s   556
+[INFO]:  bspTaskStart is running
+
+Times: 35.051s cmdTask   557
+[ERROR]:  uartid: 2 lost frame: 24
+
+Times: 1.500s   558
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   559
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   560
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   561
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   562
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   563
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   564
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   565
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   566
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   567
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   568
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   569
+[INFO]:  gyro is initialing, angle = 0.010986, offset = 0.000000
+
+Times: 2.102s   570
+[INFO]:  gyro is initialized
+
+Times: 2.501s   571
+[INFO]:  bspTaskStart is running
+
+Times: 0.000s   572
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   573
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   574
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   575
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   576
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   577
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   578
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   579
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   580
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   581
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   582
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   583
+[INFO]:  gyro is initialing, angle = 0.010986, offset = 0.000000
+
+Times: 2.102s   584
+[INFO]:  gyro is initialized
+
+Times: 2.500s   585
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   586
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   587
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   588
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   589
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   590
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   591
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   592
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   593
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   594
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   595
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   596
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   597
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   598
+[INFO]:  gyro is initialized
+
+Times: 2.501s   599
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   600
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   601
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   602
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   603
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s   604
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   605
+[INFO]:  EEPROM Test Pass
+
+Times: 1.504s   606
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   607
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   608
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   609
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   610
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   611
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   612
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   613
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   614
+[INFO]:  gyro is initialized
+
+Times: 2.500s   615
+[INFO]:  bspTaskStart is running
+
+Times: 12.620s   616
+[INFO]:  OK
+
+Times: 12.620s   617
+[INFO]:  RED
+
+Times: 12.620s   618
+[INFO]:  x = 97.364700, y = 0.000000, z = 193.728683
+
+Times: 12.622s   619
+[INFO]:  PATH
+
+Times: 12.622s   620
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 12.622s   621
+[INFO]:  distance:38880.53
+
+Times: 13.432s cmdTask   622
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 18.787s   623
+[INFO]:  WAIT 6.157s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 18.792s   624
+[INFO]:  SPIN
+
+Times: 20.882s   625
+[INFO]:  WAIT 2.085s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 20.887s   626
+[INFO]:  POSITION
+
+Times: 22.651s   627
+[INFO]:  greyLine
+
+Times: 22.652s   628
+[INFO]:  STOP
+
+Times: 22.662s   629
+[INFO]:  POSITION_SET Y: -6800.00
+
+Times: 22.671s   630
+[INFO]:  WAIT 1.779s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 69.575s   631
+[INFO]:  ZERO
+
+Times: 69.577s   632
+[INFO]:  POSITION
+
+Times: 78.167s   633
+[INFO]:  WAIT 8.582s, file:.\..\BSP\KEY\key.c, line: 125
+
+Times: 78.172s   634
+[INFO]:  SPIN
+
+Times: 0.000s   635
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   636
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   637
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   638
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   639
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   640
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   641
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   642
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   643
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   644
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   645
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   646
+[INFO]:  gyro is initialing, angle = -0.126343, offset = 0.000000
+
+Times: 2.102s   647
+[INFO]:  gyro is initialized
+
+Times: 2.500s   648
+[INFO]:  bspTaskStart is running
+
+Times: 6.236s cmdTask   649
+[ERROR]:  uartid: 2 lost frame: 11
+
+Times: 1.500s   650
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   651
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   652
+[INFO]:  armTaskStart is running
+
+Times: 1.502s   653
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   654
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   655
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   656
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   657
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   658
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   659
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   660
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   661
+[INFO]:  gyro is initialing, angle = 0.010986, offset = 0.000000
+
+Times: 2.102s   662
+[INFO]:  gyro is initialized
+
+Times: 2.502s   663
+[INFO]:  bspTaskStart is running
+
+Times: 10.022s cmdTask   664
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 0.000s   665
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   666
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   667
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   668
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   669
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   670
+[INFO]:  LCD ID:7789
+
+Times: 1.633s   671
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.634s   672
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.637s   673
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   674
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   675
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   676
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   677
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.000000
+
+Times: 2.102s   678
+[INFO]:  gyro is initialized
+
+Times: 2.500s   679
+[INFO]:  bspTaskStart is running
+

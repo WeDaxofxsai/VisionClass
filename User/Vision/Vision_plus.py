@@ -1,155 +1,89 @@
 import cv2 as cv
 import numpy as np
-import time
 
 
-def callBackInRange(x):
-    global L_H, L_S, L_V, H_H, H_S, H_V
-    L_H = cv.getTrackbarPos("L_H", "inRange")
-    L_S = cv.getTrackbarPos("L_S", "inRange")
-    L_V = cv.getTrackbarPos("L_V", "inRange")
-
-    H_H = cv.getTrackbarPos("H_H", "inRange")
-    H_S = cv.getTrackbarPos("H_S", "inRange")
-    H_V = cv.getTrackbarPos("H_V", "inRange")
-
-
-def editor():
-    global opening_hsv, aim, L_H, L_S, L_V, H_H, H_S, H_V
-    L_H = 0
-    L_S = 0
-    L_V = 0
-
-    H_H = 0
-    H_S = 0
-    H_V = 0
-    cv.namedWindow("inRange")
-
-    cv.createTrackbar("L_H", "inRange", 0, 179, callBackInRange)
-    cv.createTrackbar("L_S", "inRange", 0, 256, callBackInRange)
-    cv.createTrackbar("L_V", "inRange", 0, 256, callBackInRange)
-
-    cv.createTrackbar("H_H", "inRange", 0, 179, callBackInRange)
-    cv.createTrackbar("H_S", "inRange", 0, 256, callBackInRange)
-    cv.createTrackbar("H_V", "inRange", 0, 256, callBackInRange)
-
-    editor_img = cv.imread("E:/project/User/Things/red&blue.jpg")
-    # gsImg = cv.GaussianBlur(editor_img, (3, 3), 0)
-    hsv = cv.cvtColor(editor_img, cv.COLOR_BGR2HSV)
-    opening_hsv = hsv.copy()
-
-    aim = cv.inRange(opening_hsv, np.array([0, 0, 0]), np.array([0, 0, 0]))
-
-    # 90 58 171 104
-    while True:
-        # ret, editor_img = cap.read()
-
-        cv.imshow("editor_img", editor_img)
-        # gsImg = cv.GaussianBlur(editor_img, (3, 3), 0)
-        hsv = cv.cvtColor(editor_img, cv.COLOR_BGR2HSV)
-        opening_hsv = hsv.copy()
-        inRange_aim = cv.inRange(
-            opening_hsv, np.array([L_H, L_S, L_V]), np.array([H_H, H_S, H_V])
+class Vision:
+    def __init__(self):
+        self.COLOR_THRESHOLD = {
+            # "green": {
+            #     "Lower": np.array([0, 24, 68]),
+            #     "Upper": np.array([92, 136, 140]),
+            # },
+            # "white": {
+            #     "Lower": np.array([0, 0, 150]),
+            #     "Upper": np.array([180, 40, 255]),
+            # },
+            "red": {
+                "Lower": np.array([0, 43, 46]),
+                "Upper": np.array([10, 255, 255]),
+            },
+            "red2": {
+                "Lower": np.array([156, 43, 46]),
+                "Upper": np.array([180, 255, 255]),
+            },
+            "blue": {
+                "Lower": np.array([100, 43, 46]),
+                "Upper": np.array([124, 255, 255]),
+            },
+            # "yellow": {
+            #     "Lower": np.array([14, 86, 117]),
+            #     "Upper": np.array([50, 255, 255]),
+            # },
+            "yellow": {
+                "Lower": np.array([24, 72, 60]),
+                "Upper": np.array([35, 255, 255]),
+            },
+        }  # 颜色阈值
+        self.__width = 320
+        self.__height = 240
+        self.__frame = np.zeros(
+            (self.__height, self.__width, 3), np.uint8
+        )  # 帧的初始化
+        self.event = threading.Event()
+        self.__cap = cv.VideoCapture(1)
+        self.__cap.set(cv.CAP_PROP_FPS, 30)
+        self.__cap.set(3, self.__width)  # 设置分辨率480p
+        self.__cap.set(4, self.__height)  # 设置分辨率480p
+        self.aim = []
+        self.__kernel_circle = np.array(
+            [
+                [0, 1, 1, 0],
+                [1, 1, 1, 1],
+                [1, 1, 1, 1],
+                [0, 1, 1, 0],
+            ],
+            np.uint8,
         )
+        self.__color = "red"
 
-        cv.imshow("inRange", inRange_aim)
-        cv.imshow("show", inRange_aim)
+    def __capture(self):
+        if not self.__cap.isOpened():
+            print("[ERROR] Camera is not opened")
+            return
 
-        inRange_aim = cv.medianBlur(inRange_aim, 5)
-        inRange_aim = cv.morphologyEx(
-            inRange_aim.copy(),
-            cv.MORPH_CLOSE,
-            np.array(
-                [
-                    [0, 1, 1, 0],
-                    [1, 1, 1, 1],
-                    [1, 1, 1, 1],
-                    [0, 1, 1, 0],
-                ],
-                np.uint8,
-            ),
-        )
-        cv.imshow("aim", inRange_aim)
+        while True:
+            self.event.wait()
+            ret, frame = self.__cap.read()
+            if ret:
+                if self.aim != []:
+                    self.box = self.aim[0]
+                self.aim.clear()
+            else:
+                print("Camera is not opened")
 
-        # 查找轮廓
-        contours = cv.findContours(
-            inRange_aim.copy(), cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE
-        )[0]
-        del inRange_aim
+    def show_image(self):
+        pass
 
-        show_img = editor_img.copy()
-        for contour in contours:
-            # 获取轮廓位置
-            rect = cv.minAreaRect(contour)
-            x, y, w, h = cv.boundingRect(contour)
-            out_area = w * h
-            in_area = cv.contourArea(contour)
-            area_ratio = in_area / out_area
+    def fast_detect(self):
+        pass
 
-            # 限制条件
-            if (
-                w * h < 1000
-                or w * h > 45000
-                or w < 20
-                or h < 20
-                or (abs(w - h) / max(w, h)) > 0.6
-                or area_ratio < 0.60
-            ):
-                continue
+    def detect(self):
+        pass
 
-            # 圈定识别范围ROI
-            cv.rectangle(show_img, (x, y), (x + w, y + h), (0, 255, 0), 1)
-            cv.rectangle(show_img, (90, 58), (90 + 171, 58 + 104), (0, 0, 255), 3)
-
-            cv.rectangle(
-                show_img,
-                (90 - int(171 / 10), 58 - int(104 / 10)),
-                (90 + 171 + int(171 / 10), 58 + 104 + int(104 / 10)),
-                (255, 255, 0),
-                1,
-            )
-            cv.putText(
-                show_img,
-                str(round(in_area / (171 * 104), 4)),
-                (x + 80, y - 2),
-                cv.FONT_HERSHEY_COMPLEX,
-                0.5,
-                (0, 0, 255),
-                1,
-            )
-
-            cv.circle(show_img, (int(rect[0][0]), int(rect[0][1])), 1, (0, 0, 0), -1)
-            # 识别形状
-            approx = cv.approxPolyDP(contour, 0.025 * cv.arcLength(contour, True), True)
-            cv.drawContours(show_img, [approx], 0, (255, 0, 0), 1)
-
-            cv.putText(
-                show_img,
-                str(len(approx)),
-                (x + 60, y - 2),
-                cv.FONT_HERSHEY_COMPLEX,
-                0.5,
-                (255, 0, 0),
-                1,
-            )
-
-            cv.putText(  # 90 58 171 104
-                show_img,
-                str(round(in_area / ((171 * 1.2) * (104 * 1.2)), 4)),
-                (x + 80, y - 12),
-                cv.FONT_HERSHEY_COMPLEX,
-                0.5,
-                (255, 0, 0),
-                1,
-            )
-
-            cv.imshow("show_img", show_img)
-
-        if cv.waitKey(1) == ord("q"):
-            print(L_H, L_S, L_V, H_H, H_S, H_V)
-
-    cv.destroyAllWindows()
+    def start_control(self):
+        pass
 
 
 if __name__ == "__main__":
-    editor()
+    vision = Vision()
+    vision.start_control()

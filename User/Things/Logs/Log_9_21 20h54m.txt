@@ -1,0 +1,324 @@
+Times: 0.000s   1
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   2
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   3
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   4
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   5
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   6
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   7
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   8
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   9
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   10
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   11
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   12
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   13
+[INFO]:  gyro is initialized
+
+Times: 2.500s   14
+[INFO]:  bspTaskStart is running
+
+Times: 47.838s cmdTask   15
+[ERROR]:  uartid: 2 lost frame: 6
+
+Times: 1.500s   16
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   17
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   18
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   19
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   20
+[INFO]:  LCD ID:7789
+
+Times: 1.635s   21
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.636s   22
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.639s   23
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   24
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   25
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   26
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   27
+[INFO]:  gyro is initialing, angle = -0.005493, offset = 0.000000
+
+Times: 2.102s   28
+[INFO]:  gyro is initialized
+
+Times: 2.500s   29
+[INFO]:  bspTaskStart is running
+
+Times: 2.518s cmdTask   30
+[ERROR]:  uartid: 2 lost frame: 4
+
+Times: 14.190s   31
+[INFO]:  ONE
+
+Times: 14.190s   32
+[INFO]:  x = 100.048805, y = 0.000000, z = 110.318138
+
+Times: 18.150s   33
+[INFO]:  ONE
+
+Times: 18.150s   34
+[INFO]:  x = 100.048805, y = 0.000000, z = 110.318138
+
+Times: 19.210s   35
+[INFO]:  TWO
+
+Times: 19.210s   36
+[INFO]:  deltaA = 19.334808, delta1 = -68.719757, delta2 = 11.947612, delta3 = -7.740291
+
+Times: 19.210s   37
+[INFO]:  x = 284.990662, y = 99.996719, z = 231.993561
+
+Times: 19.210s   38
+[INFO]:  pwm = 1150
+
+Times: 23.210s   39
+[INFO]:  servoControl id:1, pwm:1150
+
+Times: 49.865s   40
+[INFO]:  TWO
+
+Times: 49.865s   41
+[INFO]:  deltaA = 0.000000, delta1 = 0.000000, delta2 = 0.000000, delta3 = 0.000000
+
+Times: 49.865s   42
+[INFO]:  x = 284.990662, y = 99.996719, z = 231.993561
+
+Times: 49.865s   43
+[INFO]:  pwm = 1150
+
+Times: 53.865s   44
+[INFO]:  servoControl id:1, pwm:1150
+
+Times: 0.000s   45
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   46
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   47
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   48
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   49
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   50
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   51
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   52
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   53
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   54
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   55
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   56
+[INFO]:  gyro is initialing, angle = -0.005493, offset = 0.000000
+
+Times: 2.102s   57
+[INFO]:  gyro is initialized
+
+Times: 2.500s   58
+[INFO]:  bspTaskStart is running
+
+Times: 14.477s cmdTask   59
+[ERROR]:  uartid: 2 lost frame: 18
+
+Times: 17.310s   60
+[INFO]:  ONE
+
+Times: 17.310s   61
+[INFO]:  x = 100.048805, y = 0.000000, z = 110.318138
+
+Times: 18.960s   62
+[INFO]:  TWO
+
+Times: 18.960s   63
+[INFO]:  deltaA = 19.334808, delta1 = -68.719757, delta2 = 11.947612, delta3 = -7.740291
+
+Times: 18.960s   64
+[INFO]:  x = 284.990662, y = 99.996719, z = 231.993561
+
+Times: 18.960s   65
+[INFO]:  pwm = 1150
+
+Times: 22.960s   66
+[INFO]:  servoControl id:1, pwm:1150
+
+Times: 58.735s   67
+[INFO]:  SIX
+
+Times: 58.735s   68
+[INFO]:  deltaA = -19.334808, delta1 = -2.470841, delta2 = 11.842578, delta3 = -11.204747
+
+Times: 58.735s   69
+[INFO]:  x = 299.995972, y = 0.000000, z = 267.994812
+
+Times: 60.735s   70
+[INFO]:  servoControl id:1, pwm:1090
+
+Times: 130.511s   71
+[INFO]:  ONE
+
+Times: 130.511s   72
+[INFO]:  x = 100.048805, y = 0.000000, z = 110.318138
+
+Times: 134.451s   73
+[INFO]:  TWO
+
+Times: 134.451s   74
+[INFO]:  deltaA = 19.334808, delta1 = -68.719757, delta2 = 11.947612, delta3 = -7.740291
+
+Times: 134.451s   75
+[INFO]:  x = 284.990662, y = 99.996719, z = 231.993561
+
+Times: 134.451s   76
+[INFO]:  pwm = 1150
+
+Times: 138.451s   77
+[INFO]:  servoControl id:1, pwm:1150
+
+Times: 138.721s   78
+[INFO]:  TWO
+
+Times: 138.721s   79
+[INFO]:  deltaA = 0.000000, delta1 = 0.000000, delta2 = 0.000000, delta3 = 0.000000
+
+Times: 138.721s   80
+[INFO]:  x = 284.990662, y = 99.996719, z = 231.993561
+
+Times: 138.721s   81
+[INFO]:  pwm = 1150
+
+Times: 142.721s   82
+[INFO]:  servoControl id:1, pwm:1150
+
+Times: 143.646s   83
+[INFO]:  TWO
+
+Times: 143.646s   84
+[INFO]:  deltaA = 0.000000, delta1 = 0.000000, delta2 = 0.000000, delta3 = 0.000000
+
+Times: 143.646s   85
+[INFO]:  x = 284.990662, y = 99.996719, z = 231.993561
+
+Times: 143.646s   86
+[INFO]:  pwm = 1150
+
+Times: 147.646s   87
+[INFO]:  servoControl id:1, pwm:1150
+
+Times: 0.000s   88
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   89
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   90
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   91
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   92
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   93
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   94
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   95
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   96
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   97
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   98
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   99
+[INFO]:  gyro is initialing, angle = -0.027466, offset = 0.000000
+
+Times: 2.102s   100
+[INFO]:  gyro is initialized
+
+Times: 2.500s   101
+[INFO]:  bspTaskStart is running
+
+Times: 7.310s   102
+[INFO]:  ONE
+
+Times: 7.310s   103
+[INFO]:  x = 100.048805, y = 0.000000, z = 110.318138
+
+Times: 8.815s   104
+[INFO]:  TWO
+
+Times: 8.815s   105
+[INFO]:  deltaA = 0.000000, delta1 = -63.695827, delta2 = 11.098675, delta3 = -7.118648
+
+Times: 8.815s   106
+[INFO]:  x = 284.990112, y = 0.000000, z = 231.993607
+
+Times: 8.815s   107
+[INFO]:  pwm = 1160
+
+Times: 12.815s   108
+[INFO]:  servoControl id:1, pwm:1160
+

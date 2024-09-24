@@ -319,10 +319,10 @@ class Frame:
         self.buffer.append(
             (self.dlen & 0x0F) | (self.CMDID["Vision"] << 4) & 0xF0
         )  # 指令id & 数据长度
-        # 颜色和形状进行编码 1 2 3 4 0红，0块
+        # 颜色和形状进行编码 1 2 3 4 0red1blue2QRcode，0rection1circle
         self.buffer.append(
-            (0 if box[2] == "red" else 1) & 0x0F
-            | ((0 if box[3] == "block" else 1) << 4) & 0xF0
+            (0 if box[2] == "red" else 1) << 4 & 0xF0
+            | (0 if box[3] == "block" else 1) & 0x0F
         )
         # 中心点坐标 面积
         packed_data = struct.pack("<fff", box[4][0], box[4][1], box[5])
@@ -331,7 +331,7 @@ class Frame:
         self.buffer.append(self.FRAME_TAIL)  # 帧尾
         self.__sent()
 
-    def Servo_control1(self):
+    def arm_control1(self, x, y, z):
         pass
 
     def call(self, color="yellow"):

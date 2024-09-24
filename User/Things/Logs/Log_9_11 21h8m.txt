@@ -1,0 +1,567 @@
+Times: 1.500s   1
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   2
+[WARN]:  armTaskStart is disabled
+
+Times: 1.501s   3
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   4
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   5
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   6
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   7
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   8
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   9
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   10
+[INFO]:  pid init from eeprom
+
+Times: 2.501s   11
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   12
+[INFO]:  gyro restart
+
+Times: 3.402s   13
+[INFO]:  gyro restart
+
+Times: 4.152s   14
+[INFO]:  gyro restart
+
+Times: 4.902s   15
+[INFO]:  gyro restart
+
+Times: 5.652s   16
+[INFO]:  gyro restart
+
+Times: 6.402s   17
+[INFO]:  gyro restart
+
+Times: 7.152s   18
+[INFO]:  gyro restart
+
+Times: 7.902s   19
+[INFO]:  gyro restart
+
+Times: 8.652s   20
+[INFO]:  gyro restart
+
+Times: 9.402s   21
+[INFO]:  gyro restart
+
+Times: 10.152s   22
+[INFO]:  gyro restart
+
+Times: 10.902s   23
+[INFO]:  gyro restart
+
+Times: 11.652s   24
+[INFO]:  gyro restart
+
+Times: 12.402s   25
+[INFO]:  gyro restart
+
+Times: 13.152s   26
+[INFO]:  gyro restart
+
+Times: 1.500s   27
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   28
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   29
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   30
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   31
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   32
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   33
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   34
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   35
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   36
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   37
+[INFO]:  gyro is initialing, angle = 0.027466, offset = 0.027466
+
+Times: 2.202s   38
+[INFO]:  gyro is initialized
+
+Times: 2.223s cmdTask   39
+[ERROR]:  uart2 lost frame 2
+
+Times: 2.500s   40
+[INFO]:  bspTaskStart is running
+
+Times: 12.290s   41
+[INFO]:  OK
+
+Times: 12.290s   42
+[INFO]:  RED
+
+Times: 12.290s   43
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 12.292s   44
+[INFO]:  PATH
+
+Times: 12.292s   45
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 12.292s   46
+[INFO]:  distance:38892.23
+
+Times: 18.462s   47
+[INFO]:  WAIT 6.162s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 18.467s   48
+[INFO]:  SPIN
+
+Times: 20.562s   49
+[INFO]:  WAIT 2.090s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 20.567s   50
+[INFO]:  POSITION
+
+Times: 20.573s   51
+[INFO]:  greyLine
+
+Times: 20.577s   52
+[INFO]:  STOP
+
+Times: 20.587s   53
+[INFO]:  POSITION_SET Y: -6800.00
+
+Times: 20.593s   54
+[INFO]:  WAIT 0.021s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 21.597s   55
+[INFO]:  POSITION
+
+Times: 62.140s   56
+[INFO]:  ZERO
+
+Times: 62.142s   57
+[INFO]:  POSITION
+
+Times: 70.722s   58
+[INFO]:  WAIT 8.572s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 70.727s   59
+[INFO]:  SPIN
+
+Times: 0.000s   60
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   61
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   62
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   63
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   64
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   65
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   66
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   67
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   68
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   69
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   70
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   71
+[INFO]:  gyro is initialing, angle = -0.175781, offset = -0.175781
+
+Times: 2.202s   72
+[INFO]:  gyro is initialized
+
+Times: 2.500s   73
+[INFO]:  bspTaskStart is running
+
+Times: 8.856s cmdTask   74
+[ERROR]:  uart2 lost frame 31
+
+Times: 1.500s   75
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   76
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   77
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   78
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   79
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   80
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   81
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   82
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   83
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   84
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   85
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.005493
+
+Times: 2.202s   86
+[INFO]:  gyro is initialized
+
+Times: 2.500s   87
+[INFO]:  bspTaskStart is running
+
+Times: 7.075s   88
+[INFO]:  OK
+
+Times: 7.075s   89
+[INFO]:  RED
+
+Times: 7.075s   90
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 7.077s   91
+[INFO]:  PATH
+
+Times: 7.077s   92
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 7.077s   93
+[INFO]:  distance:38892.23
+
+Times: 8.190s cmdTask   94
+[ERROR]:  uart2 lost frame 2
+
+Times: 13.247s   95
+[INFO]:  WAIT 6.162s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 13.252s   96
+[INFO]:  SPIN
+
+Times: 15.352s   97
+[INFO]:  WAIT 2.095s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 15.357s   98
+[INFO]:  POSITION
+
+Times: 16.641s   99
+[INFO]:  greyLine
+
+Times: 16.642s   100
+[INFO]:  STOP
+
+Times: 16.652s   101
+[INFO]:  POSITION_SET Y: -6800.00
+
+Times: 16.661s   102
+[INFO]:  WAIT 1.299s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 17.662s   103
+[INFO]:  POSITION
+
+Times: 49.995s   104
+[INFO]:  ZERO
+
+Times: 49.997s   105
+[INFO]:  POSITION
+
+Times: 58.582s   106
+[INFO]:  WAIT 8.577s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 58.587s   107
+[INFO]:  SPIN
+
+Times: 0.000s   108
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   109
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   110
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   111
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   112
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   113
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   114
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   115
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   116
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   117
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   118
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   119
+[INFO]:  gyro is initialing, angle = -0.175781, offset = -0.175781
+
+Times: 2.202s   120
+[INFO]:  gyro is initialized
+
+Times: 2.500s   121
+[INFO]:  bspTaskStart is running
+
+Times: 1.500s   122
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   123
+[WARN]:  armTaskStart is disabled
+
+Times: 1.501s   124
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   125
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   126
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   127
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   128
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   129
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   130
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   131
+[INFO]:  pid init from eeprom
+
+Times: 2.501s   132
+[INFO]:  bspTaskStart is running
+
+Times: 2.652s   133
+[INFO]:  gyro restart
+
+Times: 3.402s   134
+[INFO]:  gyro restart
+
+Times: 4.152s   135
+[INFO]:  gyro restart
+
+Times: 4.902s   136
+[INFO]:  gyro restart
+
+Times: 5.652s   137
+[INFO]:  gyro restart
+
+Times: 6.402s   138
+[INFO]:  gyro restart
+
+Times: 7.152s   139
+[INFO]:  gyro restart
+
+Times: 7.902s   140
+[INFO]:  gyro restart
+
+Times: 8.652s   141
+[INFO]:  gyro restart
+
+Times: 1.500s   142
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   143
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   144
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   145
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   146
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   147
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   148
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   149
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   150
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   151
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   152
+[INFO]:  gyro is initialing, angle = 0.032959, offset = 0.032959
+
+Times: 2.202s   153
+[INFO]:  gyro is initialized
+
+Times: 2.500s   154
+[INFO]:  bspTaskStart is running
+
+Times: 11.815s   155
+[INFO]:  OK
+
+Times: 11.815s   156
+[INFO]:  RED
+
+Times: 11.815s   157
+[INFO]:  x = 109.987358, y = 0.000000, z = 119.996628
+
+Times: 11.817s   158
+[INFO]:  PATH
+
+Times: 11.817s   159
+[INFO]:  maxSpeed:180.00,accTime:1.00,decTime:1.00
+
+Times: 11.817s   160
+[INFO]:  distance:38892.22
+
+Times: 12.753s cmdTask   161
+[ERROR]:  uart2 lost frame 2
+
+Times: 13.130s   162
+[INFO]:  OK
+
+Times: 15.939s   163
+[INFO]:  greyCross
+
+Times: 17.987s   164
+[INFO]:  WAIT 6.162s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 129
+
+Times: 17.992s   165
+[INFO]:  SPIN
+
+Times: 20.087s   166
+[INFO]:  WAIT 2.090s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 134
+
+Times: 20.092s   167
+[INFO]:  POSITION
+
+Times: 20.989s   168
+[INFO]:  greyLine
+
+Times: 20.992s   169
+[INFO]:  STOP
+
+Times: 21.002s   170
+[INFO]:  POSITION_SET Y: -6800.00
+
+Times: 21.009s   171
+[INFO]:  WAIT 0.912s, file:.\..\TASKS\MAIN_TASK\mainTask.c, line: 144
+
+Times: 22.012s   172
+[INFO]:  POSITION
+
+Times: 32.260s   173
+[INFO]:  ZERO
+
+Times: 32.262s   174
+[INFO]:  POSITION
+
+Times: 40.842s   175
+[INFO]:  WAIT 8.572s, file:.\..\BSP\KEY\key.c, line: 114
+
+Times: 40.847s   176
+[INFO]:  SPIN
+
+Times: 0.000s   177
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   178
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s armTask   179
+[WARN]:  armTaskStart is disabled
+
+Times: 1.500s   180
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   181
+[INFO]:  LCD ID:7789
+
+Times: 1.632s   182
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.633s   183
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.636s   184
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   185
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   186
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   187
+[INFO]:  pid init from eeprom
+
+Times: 2.202s   188
+[INFO]:  gyro is initialing, angle = -0.060425, offset = -0.060425
+
+Times: 2.202s   189
+[INFO]:  gyro is initialized
+

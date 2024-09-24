@@ -4,8 +4,10 @@ import cv2
 cap = cv2.VideoCapture(1)  # 0 通常是默认摄像头的标识
 
 # 定义编解码器并创建VideoWriter对象
-fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-out = cv2.VideoWriter('../Things/output.mp4', fourcc, 30.0, (640, 480))
+fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+out = cv2.VideoWriter(
+    "E://project//User//Things//white_ball.mp4", fourcc, 30.0, (320, 240)
+)
 
 # 捕获视频帧
 while cap.isOpened():
@@ -18,10 +20,10 @@ while cap.isOpened():
     out.write(frame)
 
     # 显示帧
-    # cv2.imshow('frame', frame)
+    cv2.imshow("frame", frame)
 
     # 按 'q' 退出循环
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey(1) == ord("q"):
         break
 
 # 释放资源

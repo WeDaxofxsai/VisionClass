@@ -1,0 +1,561 @@
+Times: 11.115s   1
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 13.392s   2
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 14.076s   3
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 14.766s   4
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 15.422s   5
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 18.501s   6
+[INFO]:  THREE
+
+Times: 18.501s   7
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 18.611s   8
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 18.621s   9
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 20.251s   10
+[INFO]:  THREE
+
+Times: 20.251s   11
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 20.361s   12
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 20.371s   13
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 23.246s   14
+[INFO]:  FOUR
+
+Times: 23.246s   15
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 23.356s   16
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 23.366s   17
+[INFO]:  servoControl id:0, pwm:1200
+
+Times: 1.500s   18
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   19
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   20
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   21
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   22
+[INFO]:  LCD ID:7789
+
+Times: 1.635s   23
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.636s   24
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.639s   25
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   26
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   27
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   28
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   29
+[INFO]:  gyro is initialing, angle = 0.005493, offset = 0.000000
+
+Times: 2.102s   30
+[INFO]:  gyro is initialized
+
+Times: 2.501s   31
+[INFO]:  bspTaskStart is running
+
+Times: 5.516s   32
+[INFO]:  THREE
+
+Times: 5.516s   33
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 5.626s   34
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 5.636s   35
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 7.891s   36
+[INFO]:  FOUR
+
+Times: 7.891s   37
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 8.001s   38
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 8.011s   39
+[INFO]:  servoControl id:0, pwm:1200
+
+Times: 9.191s   40
+[INFO]:  THREE
+
+Times: 9.191s   41
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 9.301s   42
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 9.311s   43
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 1.500s   44
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   45
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   46
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   47
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   48
+[INFO]:  LCD ID:7789
+
+Times: 1.635s   49
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.636s   50
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.639s   51
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   52
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   53
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   54
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   55
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   56
+[INFO]:  gyro is initialized
+
+Times: 2.501s   57
+[INFO]:  bspTaskStart is running
+
+Times: 6.931s   58
+[INFO]:  THREE
+
+Times: 6.931s   59
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 7.041s   60
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 7.051s   61
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 8.596s   62
+[INFO]:  THREE
+
+Times: 8.596s   63
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 8.706s   64
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 8.716s   65
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 10.171s   66
+[INFO]:  FOUR
+
+Times: 10.171s   67
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 10.281s   68
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 10.291s   69
+[INFO]:  servoControl id:0, pwm:1200
+
+Times: 28.094s cmdTask   70
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 0.000s   71
+[INFO]:  EasyLogger V2.2.99 is initialize success.
+
+Times: 1.500s   72
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s   73
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   74
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   75
+[INFO]:  LCD ID:7789
+
+Times: 1.634s   76
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.635s   77
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.638s   78
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   79
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   80
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   81
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   82
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   83
+[INFO]:  gyro is initialized
+
+Times: 2.500s   84
+[INFO]:  bspTaskStart is running
+
+Times: 6.220s   85
+[INFO]:  THREE
+
+Times: 6.220s   86
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 6.330s   87
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 6.340s   88
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 10.225s   89
+[INFO]:  FOUR
+
+Times: 10.225s   90
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 10.335s   91
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 10.345s   92
+[INFO]:  servoControl id:0, pwm:1200
+
+Times: 18.095s   93
+[INFO]:  FOUR
+
+Times: 18.095s   94
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 18.205s   95
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 18.215s   96
+[INFO]:  servoControl id:0, pwm:1200
+
+Times: 18.655s cmdTask   97
+[ERROR]:  uartid: 2 lost frame: 14
+
+Times: 1.500s   98
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   99
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   100
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   101
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s   102
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   103
+[INFO]:  EEPROM Test Pass
+
+Times: 1.504s   104
+[INFO]:  LCD ID:7789
+
+Times: 1.636s   105
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.637s   106
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.640s   107
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   108
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   109
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   110
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   111
+[INFO]:  gyro is initialing, angle = 0.016479, offset = 0.000000
+
+Times: 2.102s   112
+[INFO]:  gyro is initialized
+
+Times: 2.501s   113
+[INFO]:  bspTaskStart is running
+
+Times: 6.621s   114
+[INFO]:  THREE
+
+Times: 6.621s   115
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 6.731s   116
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 6.741s   117
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 7.811s   118
+[INFO]:  THREE
+
+Times: 7.811s   119
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 7.921s   120
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 7.931s   121
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 10.991s   122
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 11.738s   123
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 12.565s   124
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 16.185s   125
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 19.008s   126
+[INFO]:  servoControl id:1, pwm:1500
+
+Times: 19.758s   127
+[INFO]:  servoControl id:1, pwm:1500
+
+Times: 20.686s   128
+[INFO]:  servoControl id:1, pwm:1500
+
+Times: 21.739s   129
+[INFO]:  servoControl id:1, pwm:1500
+
+Times: 1.500s   130
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   131
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   132
+[INFO]:  motianLaserDataProcess is running
+
+Times: 1.500s cmdTask   133
+[ERROR]:  motianLaserDataProcess: frameHeadCheck failed
+
+Times: 1.500s   134
+[INFO]:  armTaskStart is running
+
+Times: 1.501s   135
+[INFO]:  EEPROM Test Pass
+
+Times: 1.504s   136
+[INFO]:  LCD ID:7789
+
+Times: 1.636s   137
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.637s   138
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.640s   139
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   140
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   141
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   142
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   143
+[INFO]:  gyro is initialing, angle = 0.000000, offset = 0.000000
+
+Times: 2.102s   144
+[INFO]:  gyro is initialized
+
+Times: 2.501s   145
+[INFO]:  bspTaskStart is running
+
+Times: 8.658s cmdTask   146
+[ERROR]:  uartid: 2 lost frame: 3
+
+Times: 11.966s   147
+[INFO]:  THREE
+
+Times: 11.966s   148
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 12.076s   149
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 12.086s   150
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 12.856s   151
+[INFO]:  THREE
+
+Times: 12.856s   152
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 12.966s   153
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 12.976s   154
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 17.611s   155
+[INFO]:  THREE
+
+Times: 17.611s   156
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 17.721s   157
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 17.731s   158
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 25.661s   159
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 26.111s   160
+[INFO]:  THREE
+
+Times: 26.111s   161
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 26.221s   162
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 26.231s   163
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 1.500s   164
+[INFO]:  cmdTaskStart is running
+
+Times: 1.500s cmdTask   165
+[ERROR]:  uartid: 2, err: 7
+
+Times: 1.500s   166
+[INFO]:  armTaskStart is running
+
+Times: 1.500s   167
+[INFO]:  EEPROM Test Pass
+
+Times: 1.502s   168
+[INFO]:  LCD ID:7789
+
+Times: 1.635s   169
+[INFO]:  Read TP Adjust Data xfac:-11.13, yfac:15.09, xc:2025, yc:1941, inited: 10
+
+Times: 1.636s   170
+[INFO]:  Read TP Adjust Data OK!
+
+Times: 1.639s   171
+[INFO]:  displayTaskStart is running
+
+Times: 2.100s   172
+[INFO]:  motorTaskStart is running
+
+Times: 2.102s   173
+[INFO]:  kp:16.00,ki:1.58,kd:0.70
+
+Times: 2.102s   174
+[INFO]:  pid init from eeprom
+
+Times: 2.102s   175
+[INFO]:  gyro is initialing, angle = 0.010986, offset = 0.000000
+
+Times: 2.102s   176
+[INFO]:  gyro is initialized
+
+Times: 2.500s   177
+[INFO]:  bspTaskStart is running
+
+Times: 5.888s   178
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 6.634s   179
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 8.321s   180
+[INFO]:  servoControl id:0, pwm:1500
+
+Times: 16.435s   181
+[INFO]:  THREE
+
+Times: 16.435s   182
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 16.545s   183
+[INFO]:  servoControl id:2, pwm:1500
+
+Times: 16.555s   184
+[INFO]:  servoControl id:0, pwm:2500
+
+Times: 17.605s   185
+[INFO]:  THREE
+
+Times: 17.605s   186
+[INFO]:  servoControl id:2, pwm:1100
+
+Times: 17.715s   187
+[INFO]:  servoControl id:2, pwm:1500
+

@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 # 读取图像并转换颜色空间
-image = cv.imread("E:/project/User/Things/red&blue.jpg")  # 替换为您的图像路径
+image = cv.imread("E:/project/User/Things/white_ball.jpg")  # 替换为您的图像路径
 # image = cv.resize(image, (128, 96))  # 可选，调整图像大小
 now_time = time.time()
 hsv_image = cv.cvtColor(image, cv.COLOR_BGR2HSV)
@@ -13,7 +13,7 @@ pixel_values = hsv_image.reshape((-1, 3))
 pixel_values = np.float32(pixel_values)
 
 # K-means聚类参数
-k = 6  # 假设分为六个类
+k = 7  # 假设分为六个类
 criteria = (cv.TERM_CRITERIA_EPS + cv.TERM_CRITERIA_MAX_ITER, 100, 0.2)
 _, labels, centers = cv.kmeans(
     pixel_values, k, None, criteria, 10, cv.KMEANS_RANDOM_CENTERS
