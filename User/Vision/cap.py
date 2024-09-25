@@ -1,6 +1,6 @@
 import cv2 as cv
 
-cap = cv.VideoCapture(1, cv.CAP_DSHOW)
+cap = cv.VideoCapture(1)
 cap.set(cv.CAP_PROP_FRAME_WIDTH, 320)
 cap.set(cv.CAP_PROP_FRAME_HEIGHT, 240)
 flag = cap.isOpened()
@@ -13,7 +13,7 @@ while flag:
     k = cv.waitKey(1) & 0xFF
     if k == ord("s"):  # 按下s键，进入下面的保存图片操作
         cv.imwrite(
-            "E://project//User//Things//" + index + str(img_cnt) + ".jpg",
+            index + str(img_cnt) + ".jpg",
             frame,
         )
         img_cnt += 1
