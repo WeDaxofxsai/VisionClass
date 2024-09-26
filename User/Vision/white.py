@@ -55,13 +55,10 @@ while True:
     # cv.imshow("White Ball", inRange_hsv)
 
     inRange_aim = cv.morphologyEx(inRange_hsv, cv.MORPH_CLOSE, kernel_circle)
-    # cv.imshow("Aim", inRange_aim)
     inRange_aim = cv.medianBlur(inRange_hsv, 5)
     cv.imshow("Aim", inRange_aim)
-    
-    contours, _ = cv.findContours(
-                inRange_aim, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE
-    )
+
+    contours, _ = cv.findContours(inRange_aim, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)
     for contour in contours:
         # 获取轮廓位置
         rect = cv.minAreaRect(contour)
@@ -80,11 +77,10 @@ while True:
             or area_ratio < 0.60
         ):  # 面积比小于0.6
             continue
+        # 绘制轮廓
         cv.circle(image, (int(rect[0][0]), int(rect[0][1])), 1, (0, 0, 0), -1)
-        cv.circle(image, (int(rect[0][0]), int(rect[0][1])), int(w/2), (0, 0, 255), 2)
-        approx = cv.approxPolyDP(
-            contour, 0.025 * cv.arcLength(contour, True), True
-        )
+        cv.circle(image, (int(rect[0][0]), int(rect[0][1])), int(w / 2), (0, 0, 255), 2)
+        approx = cv.approxPolyDP(contour, 0.025 * cv.arcLength(contour, True), True)
         cv.putText(
             image,
             str(len(approx)),
@@ -96,4 +92,3 @@ while True:
         )
     cv.imshow("Result", image)
     cv.waitKey(1)
-

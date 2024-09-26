@@ -29,14 +29,6 @@ class Vision:
                 "Lower": np.array([85, 46, 221]),
                 "Upper": np.array([124, 255, 255]),
             },
-            # "blue": {
-            #     "Lower": np.array([102, 96, 128]),
-            #     "Upper": np.array([113, 255, 255]),
-            # },
-            # "yellow": {
-            #     "Lower": np.array([14, 86, 117]),
-            #     "Upper": np.array([50, 255, 255]),
-            # },
             "yellow": {
                 "Lower": np.array([24, 72, 60]),
                 "Upper": np.array([35, 255, 255]),
@@ -173,7 +165,6 @@ class Vision:
                 # print(box)
                 self.box = box
                 cv.circle(img, (int(box[4][0]), int(box[4][1])), 10, (0, 0, 255), 5)
-                # cv.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 1)
             cv.imshow("img", img)
             cv.waitKey(1)
 
@@ -215,9 +206,6 @@ class Vision:
             # 合成目标二值化图像
             inRange_aim = cv.bitwise_or(inRange_hsv_r, inRange_hsv_b)
             inRange_aim = cv.bitwise_or(inRange_aim, inRange_hsv_y)
-
-            kernel = np.array([[-1, -1, -1], [-1, 9, -1], [-1, -1, -1]])
-
             inRange_aim = cv.medianBlur(inRange_aim, 5)
             # 目标图像进行形态学处理
             inRange_aim = cv.morphologyEx(
